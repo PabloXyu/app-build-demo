@@ -1,6 +1,10 @@
 *.iml
 .gradle
+/gradlew
+/gradlew.bat
 /local.properties
+/.idea/name
+/.idea/vcs.xml
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -12,4 +16,3 @@
 /captures
 .externalNativeBuild
 .cxx
-local.properties
