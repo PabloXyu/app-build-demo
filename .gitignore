@@ -41,8 +41,7 @@ obj/
 .externalNativeBuild
 .cxx
 
-#to remove/hide old Groovy ».*.gradle« (root & app) from repo
-gradlew
-gradlew.new
+#other
+gradlew*
+gradlew.*
 gradlew.bat.new
-gradlew.bat
