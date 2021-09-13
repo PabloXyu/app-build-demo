@@ -35,13 +35,12 @@ Thumbs.db
 #
 # NDK
 obj/
-# other:
 #
+# other:
 /captures
 .externalNativeBuild
 .cxx
-
-#other
-gradlew*
-gradlew.*
-gradlew.bat.new
+#
+# gradle executable files
+gradlew
+gradlew.bat
