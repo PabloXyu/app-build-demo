@@ -20,8 +20,6 @@ gen/
 # gradle windows executable files
 gradlew
 gradlew.bat
-gradlew.bak
-gradlew.bat.bak
 
 # Local configuration file (sdk path, etc)
 local.properties
