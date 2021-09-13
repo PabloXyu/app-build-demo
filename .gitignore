@@ -17,6 +17,12 @@ gradle/
 bin/
 gen/
 #
+# gradle windows executable files
+gradlew
+gradlew.bat
+gradlew.bak
+gradlew.bat.bak
+
 # Local configuration file (sdk path, etc)
 local.properties
 #
@@ -40,7 +46,3 @@ obj/
 /captures
 .externalNativeBuild
 .cxx
-#
-# gradle executable files
-gradlew
-gradlew.bat
