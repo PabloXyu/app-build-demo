@@ -40,3 +40,10 @@ obj/
 /captures
 .externalNativeBuild
 .cxx
+
+#to remove/hide old Groovy ».*.gradle« (root & app) from repo
+build.gradle
+settings.gradle
+gradlew
+gradlew.bat
+app/build.gradle
