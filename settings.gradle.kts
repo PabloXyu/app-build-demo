@@ -2,7 +2,7 @@ include(":app")
 
 // ^IDE may add gradle »include« at the beginning of settings file automatically...
 
-rootProject.name = "build-demo"
+rootProject.name = "app-build-demo"
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
