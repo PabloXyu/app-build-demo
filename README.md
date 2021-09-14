@@ -40,7 +40,7 @@ This app code is written on *Android Studio Arctic Fox IDE (2020.3.1, Patc
 > There can be only one buildSrc directory for multi-project builds, which has to sit in the root project directory.  
 > `buildSrc` should be preferred over script plugins as it is easier to maintain, refactor, and test the code.
 ---
-## Build Source `buildSrc` & Build Plugin `buildPlg` modules
+## Build Source `buildSrc` & Build Plugin `buildPlg` modules<sup>🟦</sup>
 * create directory for module `:buildSrc` (Source Build) with file `build.gradle` including repos.
 * in `buildSrc:build.gradle` include `kotlin-dsl` plugin and the same repos as in root build file.
 * create `src/main/kotlin` directory and mark it  as *Sources Root* (blue color).

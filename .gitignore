@@ -3,6 +3,10 @@
 build/
 gradle/
 #
+# gradle windows executable files
+gradlew
+gradlew.bat
+#
 # built application files
 *.apk
 *.ap_
@@ -17,10 +21,6 @@ gradle/
 bin/
 gen/
 #
-# gradle windows executable files
-gradlew
-gradlew.bat
-
 # Local configuration file (sdk path, etc)
 local.properties
 #
