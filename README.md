@@ -43,9 +43,10 @@ This app code is written on *Android Studio Arctic Fox IDE (2020.3.1, Patc
 ## Build Source `buildSrc` & Build Plugin `buildPlg` modules
 * create directory for module `:buildSrc` (Source Build) with file `build.gradle` including repos.
 * in `buildSrc:build.gradle` include `kotlin-dsl` plugin and the same repos as in root build file.
-* create `src/main/kotlin/com.example.appbuild` directory as `com.example.appbuild` package.
-* mark `kotlin` directory as *Sources Root*
-* create module `:buildPlg` (*Build Plugin*) the same way as `:buildSrc`.
+* create `src/main/kotlin` directory and mark it  as *Sources Root* (blue color).
+* In  *Kotlin Sources Root* create `util` package with kotlin file.
+* create directory for module `:buildPlg` (Source Build) with file `build.gradle` including repos.
+* in `buildPlg:build.gradle` include `kotlin-dsl` plugin and the same repos as in root build file.
 * create `buildPlg:settings.gradle` file with `pluginManagement{}` block including repos.
 * add `includeBuild("buildPlg")` in root `:settings.gradle`
 * rebuild the project
