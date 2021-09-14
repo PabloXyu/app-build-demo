@@ -1,14 +1,15 @@
 <!-- "gradle-as" is a png picture of logos AS IDE, Android and Gradle together -->
 ![gradle-as](https://user-images.githubusercontent.com/26512179/132996456-1d7dd5df-2604-4131-82c0-4af6629ba04b.png)
-# Gradle Composite Build Demo Application
-The purpose of the project is to extend my Android programming knowledge,  
-showing my coding skills for job interview, and share my knowledge  
+
+# Gradle<sup>🐘</sup> Composite Build Demo Application
+The purpose of the project is to extend my Android programming knowledge,
+showing my coding skills for job interview, and share my knowledge
 with other programmers for the benefit of this worldwide android-enthusiastic community.
 
 This is my first published repository.
-This app code is written on _Android Studio Arctic Fox IDE (2020.3.1, Patch 2)_.
+This app code is written on *Android Studio Arctic Fox IDE (2020.3.1, Patch 2)*.
 
-## Preliminary Work
+## Preliminary Work<sup>🔨</sup>
 * start *New empty project* by *Phone & Tablet* template with *No Activity* option.
 * create the same name `app-build-demo` for application and its location directory.
 * create package name `com.example.appbuild`.
@@ -27,8 +28,29 @@ This app code is written on _Android Studio Arctic Fox IDE (2020.3.1, Patch 2)_.
 * in resource `:app\res\values\themes` refactor app name to camel case (e.g. `Appbuilddemo` to `AppBuildDemo`).
 * perform total *IDE* restart as described in [here](#testing-the-build-process-from-the-scratch).
 * *Version Control*: first Push.
+
+>### <sup>☑ </sup> Build Source
+> `buildSrc` is a directory at the project root level which contains build info.  
+> We can use this directory to enable kotlin-dsl and write logic related to custom configuration and share them across the project.  
+> It was one of the most used approaches in recent days because of its testability.
+
+>### <sup>☑ </sup>Gradle Doc:
+> The directory `buildSrc` is treated as an included build.  
+> Upon discovery of the directory, *Gradle* automatically compiles and tests this code and puts it in the classpath of your build script.  
+> There can be only one buildSrc directory for multi-project builds, which has to sit in the root project directory.  
+> `buildSrc` should be preferred over script plugins as it is easier to maintain, refactor, and test the code.
 ---
-## Testing the Build Process From the Scratch
+## Build Source `buildSrc` & Build Plugin `buildPlg` modules
+* create directory for module `:buildSrc` (Source Build) with file `build.gradle` including repos.
+* in `buildSrc:build.gradle` include `kotlin-dsl` plugin and the same repos as in root build file.
+* create `src/main/kotlin/com.example.appbuild` directory as `com.example.appbuild` package.
+* mark `kotlin` directory as *Sources Root*
+* create module `:buildPlg` (*Build Plugin*) the same way as `:buildSrc`.
+* create `buildPlg:settings.gradle` file with `pluginManagement{}` block including repos.
+* add `includeBuild("buildPlg")` in root `:settings.gradle`
+* rebuild the project
+---
+## Testing<sup>🧪</sup> the Build Process From the Scratch
 1. delete root project directories marked orange:
    * `~/.gradle`
    * `~/build`
@@ -56,7 +78,7 @@ This app code is written on _Android Studio Arctic Fox IDE (2020.3.1, Patch 2)_.
    * no `apk`
    * no `publish`
 ---
-## Android Studio Useful Shortcuts
+## Android Studio Useful Shortcut Keys
 open *Main Menu* **:** *File* **:** *Settings* **|** *KeyMap*.
 1. Android Studio Restart
    * choose *Main Menu* **>** *File* **>** *Invalidate Cashes/Restart…*
@@ -71,7 +93,7 @@ open *Main Menu* **:** *File* **:** *Settings* **|** *KeyMap*.
    * *Add Mouse Shortcut*: `[CTRL]`+`[DoubleClick]`
 ---
 ## Key & Mouse Shortcuts
-| default | shortkey                  |          action            |
+| DEFAULT | SHORTCUT KEYS             |          ACTION            |
 |:-------:|:--------------------------|:--------------------------:|
 | yes     | `[CTRL]`+`[ALT]`+`S`      | Settings…                  |
 | no      | `[CTRL]`+`[ALT]`+`R`      | Restart                    |
@@ -86,7 +108,8 @@ open *Main Menu* **:** *File* **:** *Settings* **|** *KeyMap*.
 | no      | `[CTRL]`+`[ALT]`+`/`      | Show Local History         |
 | no      | `[CTRL]`+`[DoubleClick]`  | Show Local History         |
 
-## Tip: How to have access to commit history with free Github
+---
+## How to have access to commit history with free Github
 * go to your repository main page `https://github.com/[USERNAME]/[REPOSITORY_NAME]`
 * add `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commits`**
 * or `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commit`**
