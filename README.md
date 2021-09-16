@@ -15,8 +15,8 @@ This app code is written on *Android Studio Arctic Fox IDE (2020.3.1, Patc
 * *Version Control*: make *Initial Commit*: (*GitHub*: [`~/composite-build-demo`)](https://github.com/PabloXyu/composite-build-demo).
 * update `gradle.properties` to multi-module project.
 * in `~/.gitignore` add lines `/.idea/name` & `/.idea/vcs.xml`, `/gradle`.
-* extend `settings.gradle`, `build.gradle`, `:app:build.gradle` files to `*.kts`.
-* with those *Gradle* files migrate from *Groovy* to *Kotlin DSL*.
+* extend `settings.gradle`, `build.gradle`, `:app:build.gradle` files to [`*.kts`](https://docs.gradle.org/current/userguide/kotlin_dsl.html#sec:scripts).
+* with those *Gradle* files [migrate from *Groovy* to *Kotlin DSL*](https://developer.android.com/studio/build/migrate-to-kts).
 * in `settings.gradle`add Gradle Plugin Portal repository.
 * in root `build.gradle` add snippet to enable *Kotlin Source Root* for each module.
 * in `app:build.gradle` update *JVM* & `compileOptions` to *Java* version *11*.
@@ -25,7 +25,7 @@ This app code is written on *Android Studio Arctic Fox IDE (2020.3.1, Patc
 * update `app:src\main\AndroidManifest.xml` file adding `android:fullBackupContent="@xml/app_backup_rules`.
 * in `AndroidManifest` refactor *theme* to camel case (e.g. `Compositebuilddemo` to `CompositeBuildDemo`).
 * add `app_backup_rules.xml` file to *App* module resources in `/src/main/res/xml`.
-* ### optional:
+* ### optional: [*Markdown*](https://www.markdownguide.org/basic-syntax/) editor setup:
     * install [*Markdown Navigator Enhanced*](https://vladsch.com/product/markdown-navigator) plugin
     * go to _Main Menu_ **|** _File_ **|** _Settings…_
         * disable Markdown warning *Non-ASCII characters in an identifier*:
