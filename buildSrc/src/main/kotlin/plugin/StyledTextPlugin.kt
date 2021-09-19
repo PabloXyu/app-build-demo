@@ -22,8 +22,8 @@ class StyledTextPlugin : Plugin<Project> {
 class StyledTextPlugin : Plugin<Project> {
     override fun apply(project: Project) {
         with(project) {
-            //tasks.create("styledText", StyledTextTask::class)
-            tasks.register("styledText",StyledTextTask::class)
+            tasks.create("styledText", StyledTextTask::class)
+            //tasks.register("styledText",StyledTextTask::class)
             //extensions.create("styleText", StyledTextPluginExtension::class)
         }
     }
