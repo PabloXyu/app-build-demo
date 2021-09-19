@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.contracts.model.structure.UNKNOWN_COMPUTATION.type
+
 // Top-level build file where you can add configuration options
 // common to all sub-projects/modules.
 
@@ -14,7 +16,24 @@
 // plugin{} block always first!
 plugins { java }
 
+/**
+ * The buildscript block is where you configure
+ * the repositories and dependencies for Gradle itself—meaning,
+ * you should not include dependencies for your modules here.
+ *
+ * For example,
+ * this block includes the Android plugin for Gradle as a dependency
+ * because it provides the additional instructions
+ * Gradle needs to build Android app modules.
+ */
 buildscript {
+    /**
+     * The repositories block configures the repositories
+     * Gradle uses to search or download the dependencies.
+     * Gradle pre-configures support for remote repositories
+     * such as Google, Maven Central, and Gradle Plugin Portal.
+     * You can also use local repositories or define your own remote repositories.
+     */
     repositories {
         google()
         mavenCentral()
@@ -35,3 +54,10 @@ buildscript {
 sourceSets.all {
     java.srcDir("src/$name/kotlin")
 }
+
+
+/*
+tasks.register("clean",Delete::class)  {
+    delete(rootProject.buildDir)
+}
+*/

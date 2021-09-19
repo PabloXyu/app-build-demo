@@ -44,3 +44,4 @@ obj/
 /captures
 .externalNativeBuild
 .cxx
+*.zip

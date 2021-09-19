@@ -88,10 +88,16 @@ This app code is written on *Android Studio Arctic Fox IDE (2020.3.1, Patc
     * choose _Android_ **>** _Lint_ **>** _Correctness_
     * uncheck _Obsolete Gradle Dependency (available for Analyse|Inspect Code)_
     * _Inspect Code_, exclude warnings in `:settings.gradle`
-    * this should insert `@file:Suppress("UnstableApiUsage")` at the top of the file.
+    * this should insert `@file:Suppress("UnstableApiUsage")` at the top of the file
 <br/><br/>
 * rebuild the project
 ---
+<!--todo: classpath vs. implementation -->
+<!--todo: Composite Build -->
+<!--todo: Plugin -->
+<!--todo: Task -->
+<!--todo: Plugin Extension -->
+-----
 ## Testing<sup>🧪</sup> the Build Process From the Scratch
 1. delete root project directories marked orange:
     * `~/.gradle`
