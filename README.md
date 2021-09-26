@@ -6,14 +6,20 @@ The purpose of the project is to extend my Android programming knowledge,
 showing my coding skills for job interview, and share my knowledge
 with other programmers for the benefit of this worldwide android-enthusiastic community.
 <br></br>
-
 This is my first published repository.  
 This app code is written on *Android Studio Arctic Fox IDE (2020.3.1, Patch 2)*.
-
+<br></br>
+> ### <sup>☑ </sup> What Is Gradle?
+> Gradle is an open-source build automation system  
+> that helps you manipulate the build process and its logic.
+> For example, when you build an app,  
+> it’s Gradle that compiles all the code and creates an APK for you.
+>
 > ### <sup>☑ </sup> Usage of terms *module* & *project*
 > Although Google Android documentation uses term *project* and its *modules*,  
-> Gradle documentation names *module* as *project* or *subproject*.
->  <br></br>
+> Gradle documentation names *module* as *project* or *subproject*.  
+
+<br></br>
 > ### <sup>☑ </sup> Root Script `build.gradle`
 >
 > #### `buildscript{}` block
