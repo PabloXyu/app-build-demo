@@ -1,13 +1,3 @@
-buildscript {
-    var kotlin_version: String by extra
-    kotlin_version = "1.6.0-M1"
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath(kotlinModule("gradle-plugin", kotlin_version))
-    }
-}
 //import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 // Top-level build file where you can add configuration options
@@ -42,3 +32,17 @@ buildscript {
  *  • Better IDE experience
  *  • It’s Kotlin!
  */
+
+// plugin{} block always first!
+/*
+plugins {
+    kotlin("jvm")
+}
+
+//Experimental inline class
+
+
+    tasks.compileKotlin {
+        kotlinOptions.freeCompilerArgs = listOf("-Xinline-classes")
+    }
+*/

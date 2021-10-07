@@ -177,7 +177,7 @@ open class NamingStyleConversion {
                         .regexReplace(this, separator)
 
         /**
-         * removes word leading separator capitalize the word
+         * removes word leading separator, then capitalizes the word
          */
         // (dot, kebab, snake) -> (camel, pascal)
         private fun String.separatorToCamelCase(separator: String): String = "$separator$LETTER"

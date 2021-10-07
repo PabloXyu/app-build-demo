@@ -1,9 +1,5 @@
-val kotlin_version: String by extra
 plugins {
     id("com.android.application")
-}
-apply {
-    plugin("kotlin-android")
 }
 
 dependencies {
@@ -16,8 +12,6 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.3")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
-    implementation("androidx.core:core-ktx:+")
-    implementation(kotlinModule("stdlib-jdk7", kotlin_version))
 }
 android {
     compileSdk = 31
@@ -48,6 +42,3 @@ android {
 
 }
 
-repositories {
-    mavenCentral()
-}
