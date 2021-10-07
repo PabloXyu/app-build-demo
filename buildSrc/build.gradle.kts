@@ -46,37 +46,46 @@
  * and configure the Plugin Marker Artifact to be used when publishing.
  */
 
-//import task.StyledTextTask
-
 plugins {
     `kotlin-dsl`
     `java-gradle-plugin`
-}
-
-repositories {
-    google()
-    mavenCentral()
-    gradlePluginPortal()// so that external plugins can be resolved in dependencies section
-}
-
-dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30")
-    implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.30")
+    //`styled-text-plugin`
 }
 
 gradlePlugin {
     plugins {
-        create("styledTextPlugin") {
-            id = "com.example.plugin.styled-text"
-           implementationClass = "plugin.StyledTextPlugin"
+        register("styledTextPlugin") {
+            id = "styled-text-plugin"
+            implementationClass = "plugin.StyledTextPlugin"
         }
     }
 }
 
-//apply(plugin = "styledTextPlugin")
+// Gradle 7 requires duplicatesStrategy for "fake" duplicates.
+// https://github.com/gradle/gradle/issues/17236
+//
+gradle.taskGraph.whenReady {
+    allTasks.filter { it.hasProperty("duplicatesStrategy") }.forEach {
+        it.setProperty("duplicatesStrategy", "EXCLUDE")
+    }
+}
 
-/*
-tasks.register<StyledTextTask>("styledText")
-*/
+tasks.compileKotlin {
+    kotlinOptions{
+        jvmTarget = JavaVersion.VERSION_11.toString() // for Kotlin Projects...
+        freeCompilerArgs = listOf("-Xinline-classes") //Experimental inline class
+    }
+}
+
+repositories {
+    gradlePluginPortal()// so that external plugins can be resolved in dependencies section
+    mavenCentral()
+    google()
+}
+
+dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+}
 
 

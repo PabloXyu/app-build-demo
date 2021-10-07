@@ -1,25 +1,33 @@
-@file:Suppress("UnstableApiUsage")
-
-include(":app")
-// ^IDE may add »include()« line on top when refactoring…
 // since Gradle 5.0 DO NOT »include(":buildSrc")« here as it is a reserved name.
+include(":app")
 includeBuild("buildPlg")
+
 rootProject.name = "app-build-demo"
 
-// Dependency Resolution Management:
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            when (requested.id.namespace) {
+                "org.jetbrains.kotlin" -> useVersion("1.5.31")
+                "com.android" -> useModule("com.android.tools.build:gradle:7.0.2")
+            }
+        }
+    }
 
-// Instead of declaring repositories in every subproject of your build
-// or via an allprojects block,
-// Gradle offers a way to declare them in a central place for all project.
+    // Dependency Resolution Management:
 
-// Repositories Mode:
-// FAIL_ON_PROJECT_REPOS mode enforce that only settings repositories are used.
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    // Instead of declaring repositories in every build subproject or via an allprojects block
+    // Gradle offers a way to declare them in a central place for all projects.
+    //
+    // Repositories Mode FAIL_ON_PROJECT_REPOS mode enforce that only settings repositories are used.
+    @Suppress("UnstableApiUsage")
+    dependencyResolutionManagement
+        .repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+
     repositories {
-        google()
-        mavenCentral()
         gradlePluginPortal()
+        mavenCentral()
+        google()
     }
 }
 
@@ -52,3 +60,26 @@ dependencyResolutionManagement {
  *  • Better IDE experience
  *  • It’s Kotlin!
  */
+
+/**
+ *
+ * Anatomy of a Gradle plugin
+
+A plugin is a simple jar file containing JVM class files.
+It’s like a java library or executable jar except the entry point,
+instead of being main() is a class that can be applied to a Project :
+ *
+ */
+
+/**
+ *
+ * Plugin anatomy:
+ *
+ * This allows Gradle to do smart things such as:
+ * Optimize the loading and reuse of plugin classes
+ * Allow different plugins to use different versions of dependencies.
+ * Provide editors detailed information about the potential properties and values in the buildscript for editing assistance.
+ *
+ */
+
+
