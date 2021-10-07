@@ -177,7 +177,7 @@ open class NamingStyleConversion {
                         .regexReplace(this, separator)
 
         /**
-         * removes word leading separator capitalize the word
+         * removes word leading separator, then capitalizes the word
          */
         // (dot, kebab, snake) -> (camel, pascal)
         private fun String.separatorToCamelCase(separator: String): String = "$separator$LETTER"
@@ -219,8 +219,7 @@ open class NamingStyleConversion {
     fun String.pascalToDotCase(): String = camelToSeparatorCase(DOT)
     fun String.pascalToKebabCase(): String = camelToSeparatorCase(HYPHEN)
     fun String.pascalToSnakeCase(): String = camelToSeparatorCase(UNDERSCORE)
-    fun String.pascalToScreamingSnakeCase(): String =
-        Do.UPPERCASE of camelToSeparatorCase(UNDERSCORE)
+    fun String.pascalToScreamingSnakeCase(): String = Do.UPPERCASE of camelToSeparatorCase(UNDERSCORE)
 
     // e.g: two_words -> twoWords, two.words, two-words, TwoWords, TWO_WORDS
     fun String.snakeToCamelCase(): String = separatorToCamelCase(UNDERSCORE)

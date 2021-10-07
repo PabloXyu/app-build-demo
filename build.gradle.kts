@@ -1,13 +1,3 @@
-buildscript {
-    var kotlin_version: String by extra
-    kotlin_version = "1.6.0-M1"
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath(kotlinModule("gradle-plugin", kotlin_version))
-    }
-}
 //import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 // Top-level build file where you can add configuration options
@@ -42,3 +32,50 @@ buildscript {
  *  • Better IDE experience
  *  • It’s Kotlin!
  */
+
+// plugin{} block always first!
+/*
+plugins {
+    kotlin("jvm")
+}
+
+//Experimental inline class
+
+
+    tasks.compileKotlin {
+        kotlinOptions.freeCompilerArgs = listOf("-Xinline-classes")
+    }
+*/
+
+/**
+ * The repositories block configures the repositories
+ * Gradle uses to search or download the dependencies.
+ * Gradle pre-configures support for remote repositories
+ * such as Google, Maven Central, and Gradle Plugin Portal.
+ * You can also use local repositories or define your own remote repositories.
+ */
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:7.0.4")
+        //classpath("com.android.tools.build:gradle:7.0.3")
+        //classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30")
+        // NOTE: Do not place your application dependencies here,
+        // they belong in the individual module build.gradle files
+    }
+}
+
+// the snippet below makes sure that all
+// src/[main|test|androidTest]/kotlin dirs
+// are Source Roots for each module/subproject
+
+/*
+sourceSets.all {
+java.srcDir("src/$name/kotlin")
+}
+
+*/

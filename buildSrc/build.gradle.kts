@@ -49,7 +49,7 @@
 plugins {
     `kotlin-dsl`
     `java-gradle-plugin`
-    //`styled-text-plugin`
+    //`styled-text-plugin` //todo: remove?
 }
 
 gradlePlugin {

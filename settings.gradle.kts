@@ -1,3 +1,6 @@
+import org.gradle.kotlin.dsl.support.classFilePathCandidatesFor
+import org.gradle.kotlin.dsl.support.classPathBytesRepositoryFor
+
 // since Gradle 5.0 DO NOT »include(":buildSrc")« here as it is a reserved name.
 include(":app")
 includeBuild("buildPlg")
@@ -5,11 +8,28 @@ includeBuild("buildPlg")
 rootProject.name = "app-build-demo"
 
 pluginManagement {
+    //classFilePathCandidatesFor("com.android.tools.build:gradle:7.0.3")
+    plugins{
+        //id("com.android.tools.build:gradle:7.0.3") apply(true)
+        //id("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30") apply(true)
+    }
+    @Suppress("LocalVariableName")
     resolutionStrategy {
+        val KOTLIN_VERSION:String by System.getProperties()
+        val AGP_VERSION:String by System.getProperties()
+        //val AGP_VERSION = "7.0.3"
+        //todo: ^ delete this line?
+
         eachPlugin {
             when (requested.id.namespace) {
+                //"org.jetbrains.kotlin" -> useVersion(KOTLIN_VERSION)
                 "org.jetbrains.kotlin" -> useVersion("1.5.31")
-                "com.android" -> useModule("com.android.tools.build:gradle:7.0.2")
+                "com.android" -> {
+
+                    //useModule("com.android.tools.build:gradle:7.0.3")
+                    useModule("com.android.tools.build:gradle:7.0.4")
+                    //useVersion(AGP_VERSION)
+                }
             }
         }
     }
