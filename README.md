@@ -60,20 +60,23 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 * ### optional: [*Markdown*](https://www.markdownguide.org/basic-syntax/) editor setup:
     * download [*Markdown Navigator Enhanced*](https://vladsch.com/product/markdown-navigator), e.g. version
       [*3.0.202.112*](https://plugins.jetbrains.com/plugin/download?rel=true&updateId=97563)
+    * install [*Markdown Navigator*](https://vladsch.com/product/markdown-navigator) plugin
+        * select _Main Menu_ **|** _File_ **|** [*Settings…*](#useful-keyboard-shortcuts)
+        * select ***Plugins***
+        * in ***Plugins*** window menu select from <span style="font-size:larger">⚙</span><sup>_Settings_</sup> list: ***Install Plugin from Disk…***
+        * restart IDE
     * select _Main Menu_ **|** _File_ **|** [*Settings…*](#useful-keyboard-shortcuts)
-        * install [*Markdown Navigator*](https://vladsch.com/product/markdown-navigator) plugin
-            * select _Plugins_
-            * in _Plugins_ window menu select from _Settings_ <!--todo: wheel-->list **_Install Plugin from Disk…_**
-            * restart IDE
-        * disable Markdown *Non-ASCII characters* warnings
-            * select _Editor_ **>** _Inspections_ **>** _Internationalization_ **>** _Non-ASCII characters_
-            * in _Severity:_ select from _In All Scopes_ list _*Project Non-Source Files*_
-            * uncheck _Non-ASCII characters in identifiers_
-            * uncheck _Different languages in identifiers_
-            * _Apply_ changes
+        * disable _Markdown_ ***Non-ASCII characters*** warnings
+             * select ***Editor*** **>** ***Inspections*** window
+             * select ***Internationalization*** **>** ***Non-ASCII characters***
+             * in ***Severity:*** select from ***In All Scopes*** list ***Project Non-Source Files***
+             * in ***Severity by Scope*** select ***Project Non-Source Files***
+             * in ***Options, Warn of:*** unselect all warnings
+             * ***Apply*** changes
         * set Markdown document icon:
-            * open window _Languages & Frameworks_ **>** _Markdown_
-            * in _Application Settings_ **|** _Project View_ sub-window set _Document Icon_ to _Markdown_
+            * select ***Languages & Frameworks*** **>** ***_Markdown_*** window
+            * in _Application Settings_ **|** _Project View_ sub-window set ***Document Icon*** to ***Markdown***
+            * ***Apply*** changes
 <br/><br/>
 * add `README.md` file in root directory.
 * rebuild the project.
