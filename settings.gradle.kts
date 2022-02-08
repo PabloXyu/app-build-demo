@@ -1,13 +1,33 @@
-import org.gradle.kotlin.dsl.support.classFilePathCandidatesFor
-import org.gradle.kotlin.dsl.support.classPathBytesRepositoryFor
+/**
+ * This settings.gradle file, located in the root project directory,
+ * defines project-level repository settings and tells Gradle
+ * which modules it should include when building the app.
+ */
 
 // since Gradle 5.0 DO NOT »include(":buildSrc")« here as it is a reserved name.
 include(":app")
 includeBuild("buildPlg")
+/* todo^ explain includeBuild*/
 
 rootProject.name = "app-build-demo"
 
 pluginManagement {
+    repositories {
+        /**
+         * The pluginManagement.repositories block
+         * configures the repositories which Gradle uses
+         * to search or download the Gradle plugins
+         * and their transitive dependencies.
+         *
+         * Gradle pre-configures support for remote repositories in the block.
+         * You can also use local repositories or define your own remote ones.
+         * The code below defines the Gradle Plugin Portal, Maven Google & Central repository
+         * as the repositories Gradle should use to look for its dependencies.
+         */
+        gradlePluginPortal()
+        mavenCentral()
+        google()
+    }
     //classFilePathCandidatesFor("com.android.tools.build:gradle:7.0.3")
     plugins{
         //id("com.android.tools.build:gradle:7.0.3") apply(true)
@@ -26,7 +46,6 @@ pluginManagement {
                 "org.jetbrains.kotlin" -> useVersion("1.5.31")
                 "com.android" -> {
 
-                    //useModule("com.android.tools.build:gradle:7.0.3")
                     useModule("com.android.tools.build:gradle:7.0.4")
                     //useVersion(AGP_VERSION)
                 }
@@ -34,21 +53,36 @@ pluginManagement {
         }
     }
 
-    // Dependency Resolution Management:
+    @Suppress("UnstableApiUsage") // todo: check if still required
+    /**
+     * Instead of declaring repositories
+     * in every build subproject or via an allprojects block
+     * Gradle offers a way to declare them in a central place for all projects.
+     */
+    dependencyResolutionManagement {
+        /**
+         * FAIL_ON_PROJECT_REPOS mode enforce
+         * that only settings repositories are used.
+         */
+        repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 
-    // Instead of declaring repositories in every build subproject or via an allprojects block
-    // Gradle offers a way to declare them in a central place for all projects.
-    //
-    // Repositories Mode FAIL_ON_PROJECT_REPOS mode enforce that only settings repositories are used.
-    @Suppress("UnstableApiUsage")
-    dependencyResolutionManagement
-        .repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+        /**
+         * The dependencyResolutionManagement.repositories block
+         * is where you configure the repositories and dependencies used by
+         * all modules in your project, such as libraries that you are using to
+         * create your application. However, you should configure module-specific
+         * dependencies in each module-level build.gradle file.
+         * For new projects, Android Studio includes Maven Google & Central
+         * repositories by default, but it does not configure any dependencies
+         * (unless you select a template that requires some).
+         */
+        repositories {
+            google()
+            mavenCentral()
+        }
 
-    repositories {
-        gradlePluginPortal()
-        mavenCentral()
-        google()
     }
+
 }
 
 /**
@@ -80,26 +114,3 @@ pluginManagement {
  *  • Better IDE experience
  *  • It’s Kotlin!
  */
-
-/**
- *
- * Anatomy of a Gradle plugin
-
-A plugin is a simple jar file containing JVM class files.
-It’s like a java library or executable jar except the entry point,
-instead of being main() is a class that can be applied to a Project :
- *
- */
-
-/**
- *
- * Plugin anatomy:
- *
- * This allows Gradle to do smart things such as:
- * Optimize the loading and reuse of plugin classes
- * Allow different plugins to use different versions of dependencies.
- * Provide editors detailed information about the potential properties and values in the buildscript for editing assistance.
- *
- */
-
-
