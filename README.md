@@ -13,32 +13,85 @@ This documentation includes also:
 * ***Markdown*** editor plugin installation
 * Useful Keyshorts & Mouse mappings
 * `NamingStyleConversion` Kotlin utility class based on *RegEx*
-* <!--todo: ^ description -->
+* <!--todo: ^ Kdoc description and this documentation in Markdown -->
 * Basic *Gradle Build* terms and definitions
 
 This app code is written on [*Android Studio*](https://developer.android.com/studio#downloads) version
 [*Arctic Fox IDE (2020.3.1, Patch 4)*](https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.26/android-studio-2020.3.1.26-windows.exe).
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> HEADER </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
 
-### <sup>☑ </sup> What is Gradle?
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+> OVERRITE THIS LINE!!!
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What is Gradle? </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > _Gradle_ is an open-source build automation system  
 > that helps you manipulate the build process and its logic.
 ><br></br>
 > When you build an app, it is _Gradle_ that compiles  
-> all the code and creates an APK for you.
-<br></br>
-### <sup>☑ </sup> What is an `APK` file?
+> all the code and creates an *APK* for you.
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup>  What is an <i>APK</i> file?</h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > APK stands for ***Android Package Kit***  
 > It's the file format that Android uses to distribute and install apps.  
 > As a result, `APK`s contain all the elements  
 > that an app needs to install correctly on the device.
-<br></br>
-### <sup>☑ </sup> What is a Gradle Project?
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What is a Gradle Project? </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > Every _Gradle_ build is made up of one or more projects.  
 > A project does not necessarily represent a thing to be built.  
 > It might represent a thing to be done, such as deploying the application  
 > to staging or production environments.
-<br></br>
-### <sup>☑ </sup> Gradle build phases
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> Gradle Build Phases </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > * **Initialization**  
 > Gradle determines which modules are going to take part in the build,  
 > and creates a Project instance for each of modules.
@@ -50,8 +103,19 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > The subset is determined by the task name arguments  
 > passed to the gradle command and the current directory.  
 > Gradle then executes each of the selected tasks.
-<br></br>
-### <sup>☑ </sup> What is a Gradle Task?
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What is a Gradle Task? </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > The work that _Gradle_ can do on a project is defined by one or more tasks.  
 > Typically, tasks are provided by applying a plugin  
 > so there is no need to define them yourself.  
@@ -62,8 +126,19 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > * creating a *JAR*
 > * generating *Javadoc*
 > * publishing some archives to a repository.
-<br></br>
-### <sup>☑ </sup> What is a Gradle Plugin?
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What is a Gradle Plugin? </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > _Gradle_ at its core intentionally provides very little for real world automation.  
 > All of the useful features, like the ability to compile Java code, are added by plugins.
 ><br></br>
@@ -72,16 +147,38 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > * **domain objects** (e.g. *SourceSet*)
 > * **conventions** (e.g. Kotlin source is located at `src/main/kotlin`)  
 > as well as extending core objects and objects from other plugins.
-<br></br>
-### <sup>☑ </sup>  What plugins do
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What plugins do </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > Applying a plugin to a project allows the plugin to extend the project’s capabilities.
 ><br></br>
 > It can do things such as
 > * Extend the _Gradle_ model (e.g. add new *DSL* elements that can be configured)
 > * Configure the project according to conventions (e.g. add new tasks or configure defaults)
 > * Apply specific configuration (e.g. enforce standards or add organizational repositories)
-<br></br>
-### <sup>☑ </sup>  Packaging a plugin
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> Packaging a Plugin </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > There are several places where you can put the source for the plugin:
 > * ***Build Script*** `build.gradle`
 > You can include the source for the plugin directly in the build script.  
@@ -107,8 +204,19 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > <br></br>
 > Generally, this `JAR` might include some plugins,  
 > or bundle several related task classes into a single library.
-<br></br>
-### <sup>☑ </sup>  How Gradle performes plugin build logic
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> How Gradle Performes Plugin Build Logic </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > To use the build logic encapsulated in a plugin,  
 > _Gradle_ needs to perform two steps:
 > 1. ***resolve* the plugin**  which involves
@@ -121,8 +229,19 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > 2. `apply` the plugin to the Project  
 > by `Plugin.apply(T)` method  
 > which actually means executing the plugin
-<br></br>
-### <sup>☑ </sup> How a plugin is created?
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> How a Plugin is Created </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > You need to write a class that implements the plugin interface.  
 > When the plugin is applied to a project,  
 > _Gradle_ creates an instance of the plugin class  
@@ -130,8 +249,19 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br>
 > The _project object_ is passed as a parameter,  
 > which the plugin can use to configure the project however it needs to.
-<br></br>
-### <sup>☑ </sup> How to make the plugin configurable?
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> How to Make the Plugin Configurable </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > Most plugins offer some configuration options for build scripts  
 > as well as for other plugins. By modifying plugin configuration  
 > it is possible to customize how the plugin works.
@@ -143,13 +273,34 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br>
 > You can provide configuration for your plugin  
 > by adding an extension object to this container.
-<br></br>
-### <sup>☑ </sup> Usage of terms *module* & *project*
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> Usage of Terms <i><b>module</b></i> &#38; <i><b>project</b></i> </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > Although Google Android documentation uses term *project* and its *modules*,  
 > _Gradle_ documentation uses a term *module* as *project* or *subproject*.
+><br></br><!--^ BLOCKQUOTE -->
+</details>
 
-> <br></br>
-### <sup>☑ </sup> The Gradle Settings file
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details><!-- TODO: make list collapsable -->
+  <summary>
+    <h3><sup>☑ </sup> The Gradle Settings File </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > `settings.gradle` file, located in the root project directory,  
 > defines project-level repository settings and tells Gradle  
 > which modules it should include when building your app.
@@ -182,10 +333,20 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 >    * _Google's Maven_
 >    * _Maven Central_<br></br>
 >    repositories by default, but it does not configure any dependencies.
-<br></br>
-### <sup>☑ </sup> The Top-level Build File
-> The [top-level](https://developer.android.com/studio/build#top-level)  
-> [`build.gradle`](https://developer.android.com/studio/build#top-level)
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> The Top-level Build File </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+> The [top-level `build.gradle`](https://developer.android.com/studio/build#top-level)
 > file, located in the root project directory,  
 > defines dependencies that apply to all modules in the project.
 > <br></br>
@@ -195,10 +356,21 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > <br></br>
 > In addition, the top-level build file contains code to clean your build directory.  
 > The following code sample describes the default settings  
-> and DSL elements you can find in the top-level build.gradle file after creating a new project.
-<br></br>
+> and *DSL* elements you can find in the top-level `build.gradle` file after creating a new project.
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
 <!--fixme: ^ok, check below -->
-> ### <sup>☑ </sup> What is Build Source module
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What is Build Source Module </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > *Build Source* is a module at the project root directory,  
 > which contains build logic. This allows us to use the Kotlin DSL  
 > to write custom build code with very little configuration  
@@ -219,8 +391,19 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > The plugin is visible to every build script used by the build.  
 > However, it is not visible outside the build,  
 > and it is not possible to reuse the plugin outside the build.
-<br></br>
-### What is `buildscript{}` block
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What is <b><i>buildscript{}</i></b> block </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
 > The `buildscript{}` block is where you configure  
 > the repositories and dependencies for _Gradle_ itself.  
 > It means that you should not include dependencies for your modules here.
@@ -230,24 +413,64 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > because it provides the additional instructions  
 > that _Gradle_ needs to build Android app modules.
 > <br></br>
-> The `buildscript{}` block is for the `build.gradle` itself.
+> The `buildscript{}` block is for the `build.gradle` itself.  
 > So, if buildscript itself needs something to run,  
 > use `classpath` configuration.
-<br></br>
-### What is `repositories{}` block
-> `repositories{}` block is for declaring repositories.
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What is <i><b>repositories{}</b></i> Block </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+> `repositories{}` block is for declaring repositories.  
 > Instead of declaring repositories in every module of your build  
 > or via an `allprojects` block in root `~/build.gardle` file,  
 > *Gradle* offers a way to declare them in a central place for entire build.
 > <br></br>
 > Repositories used by convention by every module  
 > can be declared in the root `~/settings.gradle` file  
-> in `dependencyResolutionManagement` block.
+> in `dependencyResolutionManagement` block.  
 > _Gradle_ uses to search or download the dependencies.  
-<br></br>
-### What is `classpath()`
-<br></br>
-### What is `implementation()`
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What is <b><i>classpath()</i></b> </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+> TODO: Implement
+><br></br><!--^ TODO: BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3><sup>☑ </sup> What is <b><i>implementation()</i></b> </h3>
+    <img src="https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+"><!--blue line-->
+  </summary>
+
+</br><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+> TODO: Implement
+><br></br><!--^ TODO: BLOCKQUOTE -->
+</details>
+
+<br/><!-- ^ LEAVE UPPER LINE EMPTY !!!-->
+<!-- ^BOTTOM -->
 ----
 ### Preliminary Work<sup>🔨</sup>
 
@@ -430,7 +653,7 @@ open *Main Menu* **:** *File* **:** *Settings* **|** *KeyMap*.
 |yes        |`[CTRL]`+`[SHIFT]`+`U`|                         |Toggle Case               |
 ---
 ## How to have access to commit history with free Github
-> go to your repository main page `https://github.com/[USERNAME]/[REPOSITORY_NAME]`
-> add `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commits`**
-> or `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commit`**
+> * go to your repository main page `https://github.com/[USERNAME]/[REPOSITORY_NAME]`  
+> * add `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commits`**
+> * or `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commit`**
 
