@@ -38,7 +38,8 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <!-- ^BOTTOM -->
 
 <!-- END OF TEMPLATE -->
-### <a name="the-sup2-header"></a>THE SUP2 HEADER
+
+### <a name="the link"></a>The sup2 header
 <!-- TOP -->
 <details>
   <summary>
@@ -66,7 +67,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Test content and [link](the-sup2-header)
+> Test content and [the link](#the-sup2-header)
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
@@ -123,7 +124,8 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Every [***Gradle***](-sup-☑--sup--what-is-gradle) build is made up of one or more projects.  
+> Every [***Gradle***](-sup-☑--sup--what-is-gradle) build is made up of one or more projects.
+<!-- fixme^ -->
 > A project does not necessarily represent a thing to be built.  
 > It might represent a thing to be done, such as deploying the application  
 > to staging or production environments.
