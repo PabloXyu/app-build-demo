@@ -84,7 +84,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> ***[Gradle](#%26%11-what-is-gradle)*** is an open-source build automation system  
+> ***[Gradle](#%3C%26a%3E%3Csup%3E%26%11%3C%26sup%3E-what-is-gradle)*** is an open-source build automation system  
 > that helps you manipulate the build process and its logic.
 ><br></br>
 > When you build an app, it is ***Gradle*** that compiles  
