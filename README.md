@@ -67,7 +67,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Test content and [the link](#☑-the-sup-header)
+> Test content and [the link](#%26%11-the-sup-header)
 </details>
 
 <!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
@@ -139,7 +139,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
     <summary>
 
 <!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup>***Gradle*** ***Build*** Phases
+### <sup>☑</sup> ***Gradle*** ***Build*** Phases
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
