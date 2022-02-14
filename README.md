@@ -44,7 +44,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
   <summary>
 
 <!-- ^ 1 . LEAVE UPPER LINE EMPTY !!!-->
-### <a name="the link"></a>The sup header
+### <a name="the link"></a>☑ The sup header
 <!--### <a name="the link"></a>The sup header-->
 <!--### <sup>☑</sup> THE SUP HEADER-->
   </summary>
@@ -67,7 +67,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Test content and [the link](#the-sup-header)
+> Test content and [the link](#☑-the-sup-header)
 </details>
 
 <!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
