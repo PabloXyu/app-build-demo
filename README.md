@@ -39,13 +39,12 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 
 <!-- END OF TEMPLATE -->
 
-### <a name="the link"></a>The sup2 header
 <!-- TOP -->
 <details>
   <summary>
 
 <!-- ^ 1 . LEAVE UPPER LINE EMPTY !!!-->
-### THE SUP HEADER
+### <a name="the link"></a>The sup header
 <!--### <sup>☑</sup> THE SUP HEADER-->
   </summary>
 
@@ -67,7 +66,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Test content and [the link](#the-sup2-header)
+> Test content and [the link](#the-sup-header)
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
