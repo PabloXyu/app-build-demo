@@ -80,11 +80,11 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
     <summary>
 
 <!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <a name="Gradle"></a><sup>☑</sup> What is Gradle?
+### <a name="Gradle"></a><sup>&#x2611;</sup> What is Gradle?
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> ***[Gradle](#what-is-gradle)*** is an open-source build automation system  
+> ***[Gradle](#%26%11-what-is-gradle)*** is an open-source build automation system  
 > that helps you manipulate the build process and its logic.
 ><br></br>
 > When you build an app, it is ***Gradle*** that compiles  
