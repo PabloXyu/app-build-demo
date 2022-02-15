@@ -1,7 +1,7 @@
 <!-- TOP --> <!-- "gradle-as" is a png picture of logos AS IDE, Android and Gradle together -->
 ![gradle-as](https://user-images.githubusercontent.com/26512179/132996456-1d7dd5df-2604-4131-82c0-4af6629ba04b.png)
 
-# Gradle<sup>🐘</sup> Composite Build Demo Application
+# Gradle<sup>:elephant:</sup> Composite Build Demo Application
 The purpose of the project is to extend my Android programming knowledge,  
 showing my coding skills for job interview,  
 and share my knowledge with other programmers  
@@ -13,97 +13,67 @@ This documentation includes also:
 * ***Markdown*** editor plugin installation
 * Useful Keyshorts & Mouse mappings
 * `NamingStyleConversion` Kotlin utility class based on *RegEx*
+<!-- fixme^ rather code not a doc -->
 * <!--todo: ^ Kdoc description and this documentation in Markdown -->
+* <!--todo: ^ Github Markdown extendended, tricks-->
 * Basic *Gradle Build* terms and definitions
 
 This app code is written on [*Android Studio*](https://developer.android.com/studio#downloads) version
 [*Arctic Fox IDE (2020.3.1, Patch 4)*](https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.26/android-studio-2020.3.1.26-windows.exe).
-![](https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- TEMPLATE -->
+![](https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
+<!-- ANCHORED HEADER TEMPLATE (copy to clipboard from TOP to BOTTOM) -->
+
 <!-- TOP -->
 <details>
   <summary>
-
-<!-- ^ 1 . LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> THE HEADER
+    <h3>
+      <a class="anchor" id= "header-link">
+        <sup>:ballot_box_with_check:&ensp;</sup>
+          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      </a>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> OVERRITE THIS LINE!!!
+<!-- LEAVE UPPER^ LINE EMPTY!!! -->
+> OVERRITE ENTIRE LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- ^BOTTOM, MOVE OUT BLOCK BELOW! -->
 <!-- ^BOTTOM -->
 
 <!-- END OF TEMPLATE -->
 
-<!-- TOP -->
+<!-- What is Gradle? -->
 <details>
   <summary>
-
-<!-- ^ 1 . LEAVE UPPER LINE EMPTY !!!-->
-### <a name="the link"></a>☑ The sup header
-<!--### <a name="the link"></a>The sup header-->
-<!--### <sup>☑</sup> THE SUP HEADER-->
+    <h3>
+      <a class="anchor" id="gradle">
+        <sup>:ballot_box_with_check:&ensp;</sup>What is Gradle?
+      </a>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Test content
-><br></br><!--^ BLOCKQUOTE -->
-</details>
-
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
-<details>
-  <summary>
-
-<!-- ^ 1 . LEAVE UPPER LINE EMPTY !!!-->
-### THE TEST BLOCK
-<!--### <sup>☑</sup> THE SUP HEADER-->
-  </summary>
-
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Test content and [the link](#%26%11-the-sup-header)
-</details>
-
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-
-
-<!-- TOP -->
-<details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <a name="Gradle"></a><sup>&#x2611;</sup> What is Gradle?
-  </summary>
-
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> ***[Gradle](#%3C%26a%3E%3Csup%3E%26%11%3C%26sup%3E-what-is-gradle)*** is an open-source build automation system  
+> ***Gradle*** is an open-source build automation system  
 > that helps you manipulate the build process and its logic.
 ><br></br>
 > When you build an app, it is ***Gradle*** that compiles  
-> all the code and creates an *APK* for you.
+> all the code and creates an ***APK*** for you.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- What is an APK file? -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup>  What is an <i>APK</i> file?</h3>
+  <summary>
+    <h3>
+      <a class="anchor" id="apk">
+        <sup>:ballot_box_with_check:&ensp;</sup>What is an <i>APK</i> file?
+      </a>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
 > APK stands for ***Android Package Kit***  
 > It's the file format that Android uses to distribute and install apps.  
 > As a result, `APK`s contain all the elements  
@@ -111,68 +81,67 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- What is a Gradle Project? -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> What is a ***Gradle*** Project?
+  <summary>
+    <h3>
+      <a class="anchor" id="project">
+        <sup>:ballot_box_with_check:&ensp;</sup>What is a Gradle Project?
+      </a>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Every [***Gradle***](-sup-☑--sup--what-is-gradle) build is made up of one or more projects.
-<!-- fixme^ -->
+> Every ***[Gradle](#gradle)*** [build](#build) is made up of one or more projects.  
 > A project does not necessarily represent a thing to be built.  
 > It might represent a thing to be done, such as deploying the application  
 > to staging or production environments.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- Gradle Build Phases -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> ***Gradle*** ***Build*** Phases
+  <summary>
+    <h3>
+      <a class="anchor" id="build">
+         <sup>:ballot_box_with_check:&ensp;</sup> Gradle Build Phases
+      </a>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
 > * **Initialization**  
-> ***Gradle*** determines which modules are going to take part in the build,  
-> and creates a Project instance for each of modules.
+> ***[Gradle](#gradle)*** determines which modules are going to take part in the build,  
+> and creates a ***[Project](#project)*** instance for each of modules.
+> <br></br>
 > * **Configuration**  
-> Project tasks and objects are created and configured.  
+> ***[Project](#project)*** tasks and objects are created and configured.  
 > All module build scripts  of the build are executed.
+> <br></br>
 > * **Execution**  
->[***Gradle***]() determines the subset of tasks to be executed.  
+> ***[Gradle](#gradle)*** determines the subset of tasks to be executed.  
 > The subset is determined by the task name arguments  
 > passed to the gradle command and the current directory.  
-> ***Gradle*** then executes each of the selected tasks.
+> ***[Gradle](#gradle)*** then executes each of the selected tasks.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- What is a Gradle Task? -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> What is a ***Gradle*** ***Task***?
+  <summary>
+    <h3>
+      <a class="anchor" id="task">
+        <sup>:ballot_box_with_check:&ensp;</sup> What is a Gradle Task?
+      </a>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> The work that ***Gradle*** can do on a project is defined by one or more tasks.  
+> The work that ***[Gradle](#gradle)*** can do on a ***[Project](#project)***
+> is defined by one or more tasks.  
 > Typically, tasks are provided by applying a plugin  
 > so there is no need to define them yourself.  
-> A task represents some atomic piece of work which a build performs.
+> A task represents some atomic piece of work which a ***[build](#build)*** performs.
 ><br></br>
 > This might be
 > * compiling some classes
@@ -182,19 +151,18 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- What is a Gradle Plugin? -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> What is a ***Gradle*** ***Plugin***?
+  <summary>
+    <h3>
+      <a class="anchor" id= "plugin">
+        <sup>:ballot_box_with_check:&ensp;</sup> What is a Gradle Plugin?
+      </a>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> ***Gradle*** at its core intentionally provides very little for real world automation.  
+> ***[Gradle](#gradle)*** at its core intentionally provides very little for real world automation.  
 > All of the useful features, like the ability to compile Java code, are added by plugins.
 ><br></br>
 > ***Plugins*** add
@@ -205,215 +173,234 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- What Plugins do -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> What ***Plugins*** do
+  <summary>
+    <h3>
+      <sup>:ballot_box_with_check:&ensp;</sup> What <a href="#plugin">Plugins</a> do
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Applying a plugin to a project allows the plugin to extend the project’s capabilities.
+> Applying a [plugin](#plugin) to a [project](#project) allows the [plugin](#plugin) to extend the [project](#project)’s capabilities.
 ><br></br>
 > It can do things such as
-> * Extend the ***Gradle*** model (e.g. add new *DSL* elements that can be configured)
-> * Configure the project according to conventions (e.g. add new tasks or configure defaults)
+> * Extend the ***[Gradle](#gradle)*** model (e.g. add new *DSL* elements that can be configured)
+> * Configure the [project](#project) according to conventions (e.g. add new tasks or configure defaults)
 > * Apply specific configuration (e.g. enforce standards or add organizational repositories)
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- Packaging a Plugin -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> Packaging a ***Plugin***
+  <summary>
+    <h3>
+        <sup>:ballot_box_with_check:&ensp;</sup> Packaging a <a href="#plugin">Plugin</a>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> There are several places where you can put the source for the plugin:
+
+> There are several places where you can put the source for the [plugin](#plugin):
 > * ***Build Script*** `build.gradle`
 > You can include the source for the plugin directly in the build script.  
-> This has the benefit that the plugin is automatically compiled and included  
+> This has the benefit that the [plugin](#plugin) is automatically compiled and included  
 > in the *classpath* of the build script without you having to do anything.
 > <br></br>
-> However, the plugin is not visible outside the build script,  
+> However, the [plugin](#plugin) is not visible outside the build script,  
 > and cannot be reused outside the build script where it's defined.
 > <br></br>
 > * ***Build Source*** `buildSrc` ***module**  
-> You can put the source for the plugin in the `buildSrc/src/main/kotlin`.  
+> You can put the source for the [plugin](#plugin) in the `buildSrc/src/main/kotlin`.  
 > *Gradle* will take care of compiling, testing and making  
-> the plugin available on the *classpath* of the build script.
+> the [plugin](#plugin) available on the *classpath* of the build script.
 > <br></br>
-> The plugin is visible to every build script used by the build.  
+> The [plugin](#plugin) is visible to every build script used by the build.  
 > However, it is not visible outside the build,  
 > and cannot be reused outside the build it is defined in.
 > <br></br>
 > * ***Standalone project***  
-> It is possible to create a separate project for your plugin.  
+> It is possible to create a separate project for your [plugin](#plugin).  
 > This project produces and publishes a `JAR`  
 > which then can be used in multiple builds and share with others.
 > <br></br>
-> Generally, this `JAR` might include some plugins,  
+> Generally, this `JAR` might include some [plugins](#plugin),  
 > or bundle several related task classes into a single library.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- How Gradle Performes Plugin Build Logic -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> How ***Gradle*** Performes ***Plugin*** ***Build*** Logic
+  <summary>
+    <h3>
+      <sup>:ballot_box_with_check:&ensp;</sup>
+      <span>
+        How Gradle Performes Plugin <a href="#build">Build</a> Logic
+       </span>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> To use the build logic encapsulated in a plugin,  
-> ***Gradle*** needs to perform two steps:
-> 1. ***resolve* the plugin**  which involves
->    * finding its `jar` plugin file
->    * adding the plugin to the script *classpath*  
-> Once a plugin is resolved, its API can be used in a build script.
->      * ***Script plugin*** is self-resolving from the specific file path or URL when it is applied.
->      * ***Core binary plugin*** as part of the ***Gradle*** distribution is resolved automatically.
+> To use the build logic encapsulated in a [plugin](#plugin),  
+> ***[Gradle](#gradle)*** needs to perform two steps:
+> 1. ***resolve* the [plugin](#plugin)**  which involves
+>    * finding its `jar` [plugin](#plugin) file
+>    * adding the [plugin](#plugin) to the script *classpath*  
+> Once a [plugin](#plugin) is resolved, its API can be used in a build script.
+>      * ***Script [plugin](#plugin)*** is self-resolving from the specific file path or URL when it is applied.
+>      * ***Core binary [plugin](#plugin)*** as part of the ***[Gradle](#gradle)*** distribution is resolved automatically.
 > <br></br>
-> 2. `apply` the plugin to the Project  
+> 2. `apply` the [plugin](#plugin) to the Project  
 > by `Plugin.apply(T)` method  
-> which actually means executing the plugin
+> which actually means executing the [plugin](#plugin)
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- How a Plugin is Created -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> How a ***Plugin*** is Created
+  <summary>
+    <h3>
+         <sup>:ballot_box_with_check:&ensp;</sup> How a <a href="#plugin">Plugin</a> is Created
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> You need to write a class that implements the plugin interface.  
-> When the plugin is applied to a project,  
-> ***Gradle*** creates an instance of the plugin class  
+> You need to write a class that implements the [plugin](#plugin) interface.  
+> When the [plugin](#plugin) is applied to a project,  
+> ***[Gradle](#gradle)*** creates an instance of the [plugin](#plugin) class  
 > and calls the instance’s `Plugin.apply(T)` method.
 ><br></br>
 > The project object is passed as a parameter,  
-> which the plugin can use to configure the project however it needs to.
+> which the [plugin](#plugin) can use to configure the project however it needs to.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+<!-- How to Make the Plugin Configurable -->
 <details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> How to Make the ***Plugin*** Configurable
+  <summary>
+    <h3>
+      <sup>:ballot_box_with_check:&ensp;</sup>How to Make the <a href="#plugin">Plugin</a> Configurable
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Most plugins offer some configuration options for build scripts  
-> as well as for other plugins. By modifying plugin configuration  
-> it is possible to customize how the plugin works.
+<!-- LEAVE UPPER^ LINE EMPTY!!! -->
+> Most [plugins](#plugin) offer some configuration options for build scripts  
+> as well as for other [plugins](#plugin). By modifying [plugin](#plugin) configuration  
+> it is possible to customize how the [plugin](#plugin) works.
 ><br></br>
-> ***Plugins*** do this using ***extension objects***.  
+> [Plugins](#plugin) do this using ***extension objects***.  
 > The Project has an associated `ExtensionContainer` object  
-> that contains all the settings and properties for the plugins  
+> that contains all the settings and properties for the [plugins](#plugin)  
 > that have been applied to the project.
 ><br></br>
-> You can provide configuration for your plugin  
+> You can provide configuration for your [plugin](#plugin)  
 > by adding an extension object to this container.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
+<!-- Usage of Terms module & project -->
+<details>
+  <summary>
+    <h3>
+        <sup>:ballot_box_with_check:&ensp;</sup>
+          <span>
+            Usage of Terms <b><i>module</i></b> & <b><i>project</i></b>
+          </span>
+      </a>
+    </h3>
+  </summary>
+
+> Although Google Android documentation uses term ***project*** and its ***modules***,  
+> ***[Gradle](#gradle)*** documentation uses a term ***module***<sup>🟦</sup> as ***project*** or ***subproject***.
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- The Gradle Settings File -->
+<details>
+  <summary>
+    <h3><sup>:ballot_box_with_check:&ensp;</sup> The Gradle <i>Settings</i> File</h3>
+  </summary>
+<blockquote>
+
+`settings.gradle` file, located in the root project directory,  
+defines project-level repository settings and tells ***[Gradle](#gradle)***  
+which modules it should include when building your app.
+<br></br>
+It includes two ***repository*** blocks:
+
+  <details>
+  <summary>
+    <code>pluginManagement.repositories</code>
+</summary>
+<blockquote>
+
+which configures the repositories  
+used by ***[Gradle](#gradle)*** to search or download its [plugins](#plugin)  
+and their transitive dependencies.
+<br></br>
+***[Gradle](#gradle)*** pre-configures support for remote repositories in the block.  
+You can also use local repositories or define your own remote ones.
+<br></br>
+In android project repositories
+ * `gradlePluginPortal()`,
+ * `google()` (***Google's Maven***)
+ * `mavenCentral()`
+
+are those where ***[Gradle](#gradle)*** should use to look for its dependencies.
+<sup><br></br></sup>
+</blockquote></details>
+<details>
+  <summary>
+    <code>dependencyResolutionManagement.repositories</code>
+</summary>
+<blockquote>
+
+is where you configure the repositories and dependencies  
+used by all modules in your project, such as libraries  
+that you are using to create your application.
+<br></br>
+However, you should configure module-specific dependencies  
+in each module-level `build.gradle` file.
+<br></br>
+***Android Studio*** for new projects includes
+* ***Google's Maven***
+* ***Maven Central***
+
+repositories by default, but it does not configure any dependencies.
+<sup><br></br></sup>
+</blockquote></details>
+<sup><br></br></sup>
+</blockquote>
+</details>
+
+![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- TOP -->
 <details>
   <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> Usage of Terms ***module*** & ***project***
+    <h3>
+      <a class="anchor" id= "header-link">
+        <sup>:ballot_box_with_check:&ensp;</sup>
+          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      </a>
+    </h3>
   </summary>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> Although Google Android documentation uses term *project* and its *modules*,  
-> ***Gradle*** documentation uses a term *module* as *project* or *subproject*.
+<!-- LEAVE UPPER^ LINE EMPTY!!! -->
+> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
-<details><!-- TODO: make list collapsable -->
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> The ***Gradle*** ***Settings*** File
-  </summary>
-
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> `settings.gradle` file, located in the root project directory,  
-> defines project-level repository settings and tells ***Gradle***  
-> which modules it should include when building your app.
-> <br></br>
-> It includes two ***repository*** blocks:
->
-> 1. `pluginManagement.repositories` block  
->    which configures the repositories  
->    used by ***Gradle*** to search or download its plugins  
->    and their transitive dependencies.
->    <br></br>
->    ***Gradle*** pre-configures support for remote repositories in the block.  
->    You can also use local repositories or define your own remote ones.
->    <br></br>
->    In android project repositories
->    * `gradlePluginPortal()`,
->    * `google()` (***Google's Maven***)
->    * `mavenCentral()`<br></br>
->    are those where ***Gradle*** should use to look for its dependencies.
->    <br></br>
-> 2. `dependencyResolutionManagement.repositories` block  
->    is where you configure the repositories and dependencies  
->    used by all modules in your project, such as libraries  
->    that you are using to create your application.
->    <br></br>
->    However, you should configure module-specific dependencies  
->    in each module-level `build.gradle` file.
->    <br></br>
->    ***Android Studio*** for new projects includes
->    * ***Google's Maven***
->    * ***Maven Central***<br></br>
->    repositories by default, but it does not configure any dependencies.
-><br></br><!--^ BLOCKQUOTE -->
-</details>
-
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
+<!-- MOVE THE CODE BELOW -->
 <!-- TOP -->
 <details>
     <summary>
 
 <!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> The Top-level ***Build*** File
+### <sup>:ballot_box_with_check:</sup> The Top-level ***Build*** File
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
@@ -421,8 +408,8 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > file, located in the root project directory,  
 > defines dependencies that apply to all modules in the project.
 > <br></br>
-> By default, the top-level build file uses the `plugins{}` block  
-> to define the *Gradle* dependencies  
+> By default, the top-level build file uses the [`plugins{}`](#plugin) block  
+> to define the *[Gradle](#gradle)* dependencies  
 > that are common to all modules in the project.
 > <br></br>
 > In addition, the top-level build file contains code to clean your build directory.  
@@ -434,13 +421,31 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
 ![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- ^BOTTOM -->
+<!-- TOP -->
+<details>
+  <summary>
+    <h3>
+      <a class="anchor" id= "header-link">
+        <sup>:ballot_box_with_check:&ensp;</sup>
+          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      </a>
+    </h3>
+  </summary>
+
+<!-- LEAVE UPPER^ LINE EMPTY!!! -->
+> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- MOVE THE CODE BELOW -->
 <!--fixme: ^ok, check below -->
 <!-- TOP -->
 <details>
     <summary>
 
 <!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> What is ***Build*** Source Module
+### <sup>:ballot_box_with_check:</sup> What is ***Build*** Source Module
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
@@ -450,18 +455,18 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > and share this logic across the whole project.
 >
 > The module directory `buildSrc` is treated as an included build.  
-> Upon discovery of the directory, ***Gradle*** automatically compiles and tests  
+> Upon discovery of the directory, ***[Gradle](#gradle)*** automatically compiles and tests  
 > the code and puts it in the ***classpath*** of the build script.
 >
 > There can be only one `buildSrc` directory for multi-project builds.  
-> `buildSrc` should be preferred over script plugins  
+> `buildSrc` should be preferred over script [plugins](#plugin)  
 > as it is easier to maintain, refactor, and test the code.
 >
-> The source directory for the plugin should be in root  
+> The source directory for the [plugin](#plugin) should be in root  
 > `/buildSrc/src/main/kotlin` directory.  
-> ***Gradle*** will take care of compiling and testing the plugin  
+> ***[Gradle](#gradle)*** will take care of compiling and testing the plugin  
 > and making it available on the `classpath` of the build script.  
-> The plugin is visible to every build script used by the build.  
+> The [plugin](#plugin) is visible to every build script used by the build.  
 > However, it is not visible outside the build,  
 > and it is not possible to reuse the plugin outside the build.
 ><br></br><!--^ BLOCKQUOTE -->
@@ -472,21 +477,39 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <!-- ^BOTTOM -->
 <!-- TOP -->
 <details>
+  <summary>
+    <h3>
+      <a class="anchor" id= "header-link">
+        <sup>:ballot_box_with_check:&ensp;</sup>
+          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      </a>
+    </h3>
+  </summary>
+
+<!-- LEAVE UPPER^ LINE EMPTY!!! -->
+> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- MOVE THE CODE BELOW -->
+<!-- TOP -->
+<details>
     <summary>
 
 <!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> What is `buildscript{}` block
+### <sup>:ballot_box_with_check:</sup> What is `buildscript{}` block
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
 > The `buildscript{}` block is where you configure  
-> the repositories and dependencies for ***Gradle*** itself.  
+> the repositories and dependencies for ***[Gradle](#gradle)*** itself.  
 > It means that you should not include dependencies for your modules here.
 > <br></br>
 > For example, a block may include  
-> the ***Android Gradle*** ***Plugin*** (***AGP***) as a dependency,  
+> the ***Android Gradle*** ***[Plugin](#plugin)*** (***AGP***) as a dependency,  
 > because it provides the additional instructions  
-> that ***Gradle*** needs to build Android app modules.
+> that ***[Gradle](#gradle)*** needs to build Android app modules.
 > <br></br>
 > The `buildscript{}` block is for the `build.gradle` itself.  
 > So, if buildscript itself needs something to run,  
@@ -499,10 +522,28 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <!-- ^BOTTOM -->
 <!-- TOP -->
 <details>
+  <summary>
+    <h3>
+      <a class="anchor" id= "header-link">
+        <sup>:ballot_box_with_check:&ensp;</sup>
+          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      </a>
+    </h3>
+  </summary>
+
+<!-- LEAVE UPPER^ LINE EMPTY!!! -->
+> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- MOVE THE CODE BELOW -->
+<!-- TOP -->
+<details>
     <summary>
 
 <!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> What is `repositories{}` Block
+### <sup>:ballot_box_with_check:</sup> What is `repositories{}` Block
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
@@ -514,7 +555,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 > Repositories used by convention by every module  
 > can be declared in the root `~/settings.gradle` file  
 > in `dependencyResolutionManagement` block.  
-> ***Gradle*** uses to search or download the dependencies.  
+> ***[Gradle](#gradle)*** uses to search or download the dependencies.  
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
@@ -523,10 +564,28 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <!-- ^BOTTOM -->
 <!-- TOP -->
 <details>
+  <summary>
+    <h3>
+      <a class="anchor" id= "header-link">
+        <sup>:ballot_box_with_check:&ensp;</sup>
+          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      </a>
+    </h3>
+  </summary>
+
+<!-- LEAVE UPPER^ LINE EMPTY!!! -->
+> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- MOVE THE CODE BELOW -->
+<!-- TOP -->
+<details>
     <summary>
 
 <!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> What is `classpath()`
+### <sup>:ballot_box_with_check:</sup> What is `classpath()`
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
@@ -539,10 +598,28 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <!-- ^BOTTOM -->
 <!-- TOP -->
 <details>
+  <summary>
+    <h3>
+      <a class="anchor" id= "header-link">
+        <sup>:ballot_box_with_check:&ensp;</sup>
+          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      </a>
+    </h3>
+  </summary>
+
+<!-- LEAVE UPPER^ LINE EMPTY!!! -->
+> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- MOVE THE CODE BELOW -->
+<!-- TOP -->
+<details>
     <summary>
 
 <!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>☑</sup> What is `implementation()`
+### <sup>:ballot_box_with_check:</sup> What is `implementation()`
   </summary>
 
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
@@ -553,7 +630,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
 <!-- ^BOTTOM -->
 ----
-### Preliminary Work<sup>🔨</sup>
+### Preliminary Work<sup>:hammer:</sup>
 
 * start *New empty project* by *Phone & Tablet* template with *No Activity* option.
 * use the same name `composite-build-demo` for application name and its location directory.
@@ -563,7 +640,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 * in `~/.gitignore` add lines `/.idea/name` & `/.idea/vcs.xml`, `/gradle`.
 * extend `settings.gradle`, `build.gradle`, `:app:build.gradle` files to [`*.kts`](https://docs.gradle.org/current/userguide/kotlin***dsl.html#sec:scripts).
 * with those *Gradle* files [migrate from *Groovy* to *Kotlin DSL*](https://developer.android.com/studio/build/migrate-to-kts).
-* in `settings.gradle`add ***Gradle Plugin Portal*** repository.
+* in `settings.gradle`add ***Gradle [Plugin](#plugin) Portal*** repository.
 * in root `build.gradle` add snippet to enable *Kotlin Source Root* for each module.
 * in `app:build.gradle` update *JVM* & `compileOptions` to *Java* version *11*.
 * set *compileSdk* & *targetSdk* to level *31*.
@@ -653,7 +730,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
   * *Version Control*: make first Push.
 <br/><br/>
 
-## Adding ***Build Source*** `buildSrc` & ***Build*** ***Plugin*** `buildPlg` modules<sup>🟦</sup>
+## Adding ***Build Source*** `buildSrc` & ***Build*** ***Plugin*** `buildPlg` modules<sup>:blue_square:</sup>
 * create directory for module `:buildSrc` (***Build Source***) with file `build.gradle.kts` including repos.
 * in `buildSrc:build.gradle` include `kotlin-dsl` plugin and the same repos as in root build file.
 * create `src/main/kotlin` directory and mark it  as *Sources Root* (blue color).
@@ -675,7 +752,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <!--todo: classpath vs. implementation -->
 <!--todo: Composite Build -->
 ----
-## Testing<sup>🧪</sup> the ***Build*** Process From the Scratch
+## Testing<sup>:test_tube:</sup> the ***Build*** Process From the Scratch
 1. delete root project directories marked orange:
     * `~/.gradle`
     * `~/build`
