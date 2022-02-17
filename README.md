@@ -1,4 +1,4 @@
-<!-- TOP --> <!-- "gradle-as" is a png picture of logos AS IDE, Android and Gradle together -->
+<!-- "gradle-as" is a png picture of logos AS IDE, Android and Gradle together -->
 ![gradle-as](https://user-images.githubusercontent.com/26512179/132996456-1d7dd5df-2604-4131-82c0-4af6629ba04b.png)
 
 # Gradle<sup>:elephant:</sup> Composite Build Demo Application
@@ -20,30 +20,18 @@ This documentation includes also:
 
 This app code is written on [*Android Studio*](https://developer.android.com/studio#downloads) version
 [*Arctic Fox IDE (2020.3.1, Patch 4)*](https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.26/android-studio-2020.3.1.26-windows.exe).
-![](https://via.placeholder.com/600x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
-<!-- ANCHORED HEADER TEMPLATE (copy to clipboard from TOP to BOTTOM) -->
 
-<!-- TOP -->
+<!-- TOP OF FAQ -->
+![](https://via.placeholder.com/1000x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
+<!-- TOP OF FAQ -->
 <details>
   <summary>
-    <h3>
-      <a class="anchor" id= "header-link">
-        <sup>:ballot_box_with_check:&ensp;</sup>
-          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+    <h2>
+      <a class="anchor" id="faq">
+        <sup>:question:&ensp;</sup>FAQ
       </a>
-    </h3>
+    </h2>
   </summary>
-
-<!-- LEAVE UPPER^ LINE EMPTY!!! -->
-> OVERRITE ENTIRE LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
-><br></br><!--^ BLOCKQUOTE -->
-</details>
-
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM, MOVE OUT BLOCK BELOW! -->
-<!-- ^BOTTOM -->
-
-<!-- END OF TEMPLATE -->
 
 <!-- What is Gradle? -->
 <details>
@@ -63,7 +51,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- What is an APK file? -->
 <details>
   <summary>
@@ -81,7 +69,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- What is a Gradle Project? -->
 <details>
   <summary>
@@ -99,7 +87,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- Gradle Build Phases -->
 <details>
   <summary>
@@ -126,7 +114,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- What is a Gradle Task? -->
 <details>
   <summary>
@@ -151,7 +139,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- What is a Gradle Plugin? -->
 <details>
   <summary>
@@ -173,7 +161,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- What Plugins do -->
 <details>
   <summary>
@@ -191,7 +179,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- Packaging a Plugin -->
 <details>
   <summary>
@@ -229,7 +217,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- How Gradle Performes Plugin Build Logic -->
 <details>
   <summary>
@@ -256,7 +244,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- How a Plugin is Created -->
 <details>
   <summary>
@@ -275,7 +263,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- How to Make the Plugin Configurable -->
 <details>
   <summary>
@@ -299,7 +287,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- Usage of Terms module & project -->
 <details>
   <summary>
@@ -317,11 +305,15 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- The Gradle Settings File -->
 <details>
   <summary>
-    <h3><sup>:ballot_box_with_check:&ensp;</sup> The Gradle <i>Settings</i> File</h3>
+    <h3>
+      <a class="anchor" id= "settings-file">
+        <sup>:ballot_box_with_check:&ensp;</sup> The Gradle <i>Settings</i> File
+      </a>
+    </h3>
   </summary>
 <blockquote>
 
@@ -372,38 +364,21 @@ in each module-level `build.gradle` file.
 repositories by default, but it does not configure any dependencies.
 <sup><br></br></sup>
 </blockquote></details>
-<sup><br></br></sup>
+<sup><br/></sup>
 </blockquote>
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- TOP -->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- The Top-level Build File -->
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "header-link">
-        <sup>:ballot_box_with_check:&ensp;</sup>
-          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      <a class="anchor" id= "the-top-level-build-file">
+        <sup>:ballot_box_with_check:&ensp;</sup>The Top-level <b><i>Build File</i></b>
       </a>
     </h3>
   </summary>
 
-<!-- LEAVE UPPER^ LINE EMPTY!!! -->
-> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
-><br></br><!--^ BLOCKQUOTE -->
-</details>
-
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- MOVE THE CODE BELOW -->
-<!-- TOP -->
-<details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>:ballot_box_with_check:</sup> The Top-level ***Build*** File
-  </summary>
-
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
 > The [***top-level*** `build.gradle`](https://developer.android.com/studio/build#top-level)
 > file, located in the root project directory,  
 > defines dependencies that apply to all modules in the project.
@@ -418,37 +393,18 @@ repositories by default, but it does not configure any dependencies.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- What is Build Source Module -->
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "header-link">
-        <sup>:ballot_box_with_check:&ensp;</sup>
-          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      <a class="anchor" id= "build-source-module">
+        <sup>:ballot_box_with_check:&ensp;</sup>What is <b><i>Build Source</i></b>
+        <sup><code>buildSrc</code></sup> Module
       </a>
     </h3>
   </summary>
 
-<!-- LEAVE UPPER^ LINE EMPTY!!! -->
-> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
-><br></br><!--^ BLOCKQUOTE -->
-</details>
-
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- MOVE THE CODE BELOW -->
-<!--fixme: ^ok, check below -->
-<!-- TOP -->
-<details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>:ballot_box_with_check:</sup> What is ***Build*** Source Module
-  </summary>
-
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
 > ***Build Source*** is a module at the project root directory,  
 > which contains build logic. This allows us to use the Kotlin DSL  
 > to write custom build code with very little configuration  
@@ -472,36 +428,17 @@ repositories by default, but it does not configure any dependencies.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- What is buildscript{} block -->
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "header-link">
-        <sup>:ballot_box_with_check:&ensp;</sup>
-          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      <a class="anchor" id= "buildscript-block">
+        <sup>:ballot_box_with_check:&ensp;</sup>What is <code>buildscript{}</code> block
       </a>
     </h3>
   </summary>
 
-<!-- LEAVE UPPER^ LINE EMPTY!!! -->
-> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
-><br></br><!--^ BLOCKQUOTE -->
-</details>
-
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- MOVE THE CODE BELOW -->
-<!-- TOP -->
-<details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>:ballot_box_with_check:</sup> What is `buildscript{}` block
-  </summary>
-
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
 > The `buildscript{}` block is where you configure  
 > the repositories and dependencies for ***[Gradle](#gradle)*** itself.  
 > It means that you should not include dependencies for your modules here.
@@ -517,36 +454,17 @@ repositories by default, but it does not configure any dependencies.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- What is repositories{} block -->
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "header-link">
-        <sup>:ballot_box_with_check:&ensp;</sup>
-          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      <a class="anchor" id= "repositories-block">
+        <sup>:ballot_box_with_check:&ensp;</sup>What is <code>repositories{}</code> block
       </a>
     </h3>
   </summary>
 
-<!-- LEAVE UPPER^ LINE EMPTY!!! -->
-> OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
-><br></br><!--^ BLOCKQUOTE -->
-</details>
-
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- MOVE THE CODE BELOW -->
-<!-- TOP -->
-<details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>:ballot_box_with_check:</sup> What is `repositories{}` Block
-  </summary>
-
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
 > `repositories{}` block is for declaring repositories.  
 > Instead of declaring repositories in every module of your build  
 > or via an `allprojects` block in root `~/build.gardle` file,  
@@ -559,78 +477,55 @@ repositories by default, but it does not configure any dependencies.
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- What is classpath() -->
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "header-link">
-        <sup>:ballot_box_with_check:&ensp;</sup>
-          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      <a class="anchor" id= "classpath">
+        <sup>:ballot_box_with_check:&ensp;</sup>What is <code>classpath()</code>
       </a>
     </h3>
   </summary>
 
+<!--todo: make up-->
 <!-- LEAVE UPPER^ LINE EMPTY!!! -->
 > OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- MOVE THE CODE BELOW -->
-<!-- TOP -->
-<details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>:ballot_box_with_check:</sup> What is `classpath()`
-  </summary>
-
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> TODO: Implement
-><br></br><!--^ TODO: BLOCKQUOTE -->
-</details>
-
-<!-- ^ 3 . LEAVE UPPER LINE EMPTY !!!-->
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- ^BOTTOM -->
-<!-- TOP -->
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- What is implementation() -->
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "header-link">
-        <sup>:ballot_box_with_check:&ensp;</sup>
-          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      <a class="anchor" id= "classpath">
+        <sup>:ballot_box_with_check:&ensp;</sup>What is <code>implementation()</code>
       </a>
     </h3>
   </summary>
 
+<!--todo: make up-->
 <!-- LEAVE UPPER^ LINE EMPTY!!! -->
 > OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-![](https://via.placeholder.com/600x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- MOVE THE CODE BELOW -->
-<!-- TOP -->
-<details>
-    <summary>
-
-<!-- ^ 1. LEAVE UPPER LINE EMPTY !!!-->
-### <sup>:ballot_box_with_check:</sup> What is `implementation()`
-  </summary>
-
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-> TODO: Implement
-><br></br><!--^ TODO: BLOCKQUOTE -->
 </details>
+<!-- ^BOTTOM OF FAQ -->
+<!-- ^BOTTOM OF FAQ -->
 
-<!-- ^ 2 . LEAVE UPPER LINE EMPTY !!!-->
-<!-- ^BOTTOM -->
-----
-### Preliminary Work<sup>:hammer:</sup>
+<!-- TOP OF PRELIMINARY WORK -->
+![](https://via.placeholder.com/1000x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
+<!-- TOP OF PRELIMINARY WORK -->
+<details>
+  <summary>
+    <h3>
+      <a class="anchor" id="faq">
+        Preliminary Work<sup>:hammer:</sup>
+      </a>
+    </h3>
+  </summary>
 
 * start *New empty project* by *Phone & Tablet* template with *No Activity* option.
 * use the same name `composite-build-demo` for application name and its location directory.
@@ -648,12 +543,13 @@ repositories by default, but it does not configure any dependencies.
 * update `app:src\main\AndroidManifest.xml` file adding `android:fullBackupContent="@xml/app_backup_rules`.
 * in `AndroidManifest` refactor *theme* to camel case (e.g. `Compositebuilddemo` to `CompositeBuildDemo`).
 * add `app_backup_rules.xml` file to *App* module resources in `/src/main/res/xml`.
+* install Markdown editor (optional)<sup>:bangbang:</sup>
 * <details><!--  LEV1: Markdown editor installation & setup (optional) -->
     <summary>
       <a href="https://vladsch.com/product/markdown-navigator"> <i> Markdown </i> </a>
-      editor installation &#38; setup (optional)
+      editor installation &#38; setup (optional) <sup>:bangbang:</sup>
     </summary>
-    <blockquote>
+      <blockquote>
        <details><!--  LEV2: install Markdown Navigator plugin -->
         <summary>
           install
@@ -665,8 +561,9 @@ repositories by default, but it does not configure any dependencies.
   * download [*Markdown Navigator Enhanced*](https://vladsch.com/product/markdown-navigator) plugin, e.g. version [*3.0.202.112*](https://plugins.jetbrains.com/plugin/download?rel=true&updateId=97563)
   * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
   * select ***Plugins***
-  * in ***Plugins*** window menu select from <span style="font-size:larger">⚙</span><sup>***Settings***</sup> list: ***Install Plugin from Disk…***
+  * in ***Plugins*** window menu select from :gear:<sup>***Settings***</sup> list: ***Install Plugin from Disk…***
   * restart IDE
+
         </blockquote>
        </details><!-- LEV2: install Markdown Navigator plugin -->
        <details><!--  LEV2: set up Markdown editor -->
@@ -677,10 +574,10 @@ repositories by default, but it does not configure any dependencies.
          </summary>
          <blockquote>
 
-    * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
+  * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
            <details><!--  LEV3: disable Markdown warnings -->
              <summary>
-               disable <i>Markdown</i> warnings
+               disable <i>Markdown</i> warnings &#x26; errors
              </summary>
              <ul style=“list-style-type:none”><!--indent-->
 
@@ -688,7 +585,7 @@ repositories by default, but it does not configure any dependencies.
                <li>
                  <details><!--  LEV4: disable Markdown Non-ASCII characters warnings -->
                    <summary>
-                     disable <i>Markdown <b>Non-ASCII characters` warnings
+                     disable <i>Markdown</i> <b><i>Non-ASCII characters</b></i> warnings
                    </summary>
 
         * select ***Internationalization*** **>** ***Non-ASCII characters***
@@ -720,6 +617,216 @@ repositories by default, but it does not configure any dependencies.
             * in ***Application Settings*** **|** ***Project View*** sub-window set ***Document Icon*** to ***Markdown***
             * ***Apply*** changes
            </details><!-- LEV3: set Markdown document icon -->
+           <details><!--  LEV3: disable Link Anchor error messages -->
+             <summary>
+               disable <b><i>Link Anchor</i></b> error messages
+             </summary>
+
+            * select ***Languages & Frameworks*** **>** ***Markdown*** **>** ***Annotator***
+            * select ***Link Anchors*** tab
+            * uncheck ***Anchor reference id is not resolved***
+            * ***Apply*** changes
+           </details><!--  LEV3: disable Link Anchor error messages -->
+         </blockquote>
+       </details><!-- LEV2: set up Markdown editor -->
+    </blockquote>
+  </details><!--  LEV1: Markdown editor installation & setup (optional) -->
+* add `README.md` file in root directory.
+* rebuild the project.
+* *Version Control*: make first Push.
+</details>
+
+<!-- ^BOTTOM OF PRELIMINARY WORK -->
+<!-- ^BOTTOM OF PRELIMINARY WORK -->
+
+<!-- TOP OF MARKDOWN INSTALLATION -->
+![](https://via.placeholder.com/1000x10.png/0078D7/0078D7/text=+)<!--3px blue line-->
+<!-- TOP OF MARKDOWN INSTALLATION -->
+<details xmlns="http://www.w3.org/1999/html"><!--  LEV1: Markdown editor installation & setup (optional) -->
+  <summary>
+    <h3>
+      <a href="https://vladsch.com/product/markdown-navigator"> <i> This is Markdown </i> </a>
+      editor installation &#38; setup (optional) <sup>:bangbang:</sup><sup>:bangbang:</sup>
+    </h3>
+  </summary>
+  <blockquote>
+    <details><!--  LEV2: install Markdown Navigator plugin -->
+      <summary>
+        install
+        <a href="https://vladsch.com/product/markdown-navigator"><i> Markdown Navigator</i></a>
+        plugin
+      </summary>
+
+<!-- LEV2 LIST ITEMS: #1-5 -->
+* download [*Markdown Navigator Enhanced*](https://vladsch.com/product/markdown-navigator) plugin, e.g. version [*3.0.202.112*](https://plugins.jetbrains.com/plugin/download?rel=true&updateId=97563)
+* select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
+* select ***Plugins***
+* in ***Plugins*** window menu select from :gear:<sup>***Settings***</sup> list: ***Install Plugin from Disk…***
+* restart IDE
+    </details><!--^LEV2: install Markdown Navigator plugin -->
+
+    <details><!--  LEV2: set up Markdown editor -->
+      <summary>
+        set up
+        <a href="https://vladsch.com/product/markdown-navigator"> <i>Markdown</i> </a>
+        editor
+      </summary>
+
+        <!-- LEV3 LIST ITEM: #1 -->
+   * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
+        <!-- LEV3 LIST ITEM: #2 -->
+        <details><!--  LEV3: disable Markdown warnings -->
+          <summary>
+            disable <i>Markdown</i> warnings
+          </summary>
+            <!-- LEV3 LIST ITEM: #1 -->
+  * select ***Editor*** **>** ***Inspections*** window
+            <!-- LEV3 LIST ITEM: #2 -->
+            <details><!--  LEV4: disable Markdown Non-ASCII characters warnings -->
+              <summary>
+                disable <i>Markdown</i> <b><i>Non-ASCII characters</b></i> warnings
+              </summary>
+            <!-- LEV4 LIST ITEMS: #1-5 -->
+     * select ***Internationalization*** **>** ***Non-ASCII characters***
+     * ***Severity:*** select from ***In All Scopes*** list ***Project Non-Source Files***
+     * in ***Severity by Scope*** select ***Project Non-Source Files***
+     * in ***Options, Warn of:*** unselect all warning
+     *  ***Apply*** changes-->
+            </details><!--^LEV4: disable Markdown Non-ASCII characters warnings -->
+            <!-- LEV3 LIST ITEM: #3 -->
+            <details><!--  LEV4: disable other Markdown warnings -->
+            <!-- LEV4 LIST ITEMS: #1-3 -->
+     * select ***Markdown*** **>** ***Reference Issues***
+     * uncheck ***Link text does not match heading***
+     * uncheck ***Validate emoji shortcuts***
+            </details><!--^LEV4: disable other Markdown warnings -->
+        </details><!--^LEV3: disable Markdown warnings -->
+        <!-- LEV3 LIST ITEM: #3 -->
+        <details><!--  LEV3: set Markdown document icon -->
+          <summary>
+            set <i>Markdown</i> document icon
+          </summary>
+            <!-- LEV4 LIST ITEMS: #1-3 -->
+     * select ***Languages & Frameworks*** **>** ***Markdown*** window
+     * in ***Application Settings*** **|** ***Project View*** sub-window set ***Document Icon*** to ***Markdown***
+     * ***Apply*** changes
+        </details><!--^LEV3: set Markdown document icon -->
+        <!-- LEV3 LIST ITEM: #4 -->
+        <details><!--  LEV3: disable Link Anchor error messages -->
+          <summary>
+            disable <b><i>Link Anchor</i></b> error messages
+          </summary>
+          <!-- LEV4 LIST ITEMS: #1-4 -->
+     * select ***Languages & Frameworks*** **>** ***Markdown*** **>** ***Annotator***
+     * select ***Link Anchors*** tab
+     * uncheck ***Anchor reference id is not resolved***
+     * ***Apply*** changes
+        </details><!--^LEV3: disable Link Anchor error messages -->
+    </details><!--^LEV2: set up Markdown editor -->
+  </blockquote>
+</details><!--^LEV1: Markdown editor installation & setup (optional) -->
+
+
+### Preliminary Work<sup>:hammer:</sup> Not Collapsible
+
+* start *New empty project* by *Phone & Tablet* template with *No Activity* option.
+* use the same name `composite-build-demo` for application name and its location directory.
+* create package name `com.example.demo`.
+* *Version Control*: make *Initial Commit*: (*GitHub*: [`~/composite-build-demo`](https://github.com/PabloXyu/composite-build-demo)).
+* update `gradle.properties` to multi-module project.
+* in `~/.gitignore` add lines `/.idea/name` & `/.idea/vcs.xml`, `/gradle`.
+* extend `settings.gradle`, `build.gradle`, `:app:build.gradle` files to [`*.kts`](https://docs.gradle.org/current/userguide/kotlin***dsl.html#sec:scripts).
+* with those *Gradle* files [migrate from *Groovy* to *Kotlin DSL*](https://developer.android.com/studio/build/migrate-to-kts).
+* in `settings.gradle`add ***Gradle [Plugin](#plugin) Portal*** repository.
+* in root `build.gradle` add snippet to enable *Kotlin Source Root* for each module.
+* in `app:build.gradle` update *JVM* & `compileOptions` to *Java* version *11*.
+* set *compileSdk* & *targetSdk* to level *31*.
+* set *Target JVM* (*IDE Kotlin Compiler* option) to version *11*.
+* update `app:src\main\AndroidManifest.xml` file adding `android:fullBackupContent="@xml/app_backup_rules`.
+* in `AndroidManifest` refactor *theme* to camel case (e.g. `Compositebuilddemo` to `CompositeBuildDemo`).
+* add `app_backup_rules.xml` file to *App* module resources in `/src/main/res/xml`.
+* <details><!--  LEV1: Markdown editor installation & setup (optional) -->
+    <summary>
+      <a href="https://vladsch.com/product/markdown-navigator"> <i> Markdown </i> </a>
+      editor installation &#38; setup (optional) <sup>:bangbang:</sup>
+    </summary>
+    <blockquote>
+       <details><!--  LEV2: install Markdown Navigator plugin -->
+        <summary>
+          install
+          <a href="https://vladsch.com/product/markdown-navigator"> <i> Markdown Navigator </i> </a>
+          plugin
+        </summary>
+         <blockquote>
+
+  * download [*Markdown Navigator Enhanced*](https://vladsch.com/product/markdown-navigator) plugin, e.g. version [*3.0.202.112*](https://plugins.jetbrains.com/plugin/download?rel=true&updateId=97563)
+  * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
+  * select ***Plugins***
+  * in ***Plugins*** window menu select from :gear:<sup>***Settings***</sup> list: ***Install Plugin from Disk…***
+  * restart IDE
+        </blockquote>
+       </details><!-- LEV2: install Markdown Navigator plugin -->
+       <details><!--  LEV2: set up Markdown editor -->
+         <summary>
+           set up
+           <a href="https://vladsch.com/product/markdown-navigator"> <i>Markdown</i> </a>
+           editor
+         </summary>
+         <blockquote>
+
+    * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
+           <details><!--  LEV3: disable Markdown warnings -->
+             <summary>
+               disable <i>Markdown</i> warnings &#x26; errors
+             </summary>
+             <ul style=“list-style-type:none”><!--indent-->
+
+      * select ***Editor*** **>** ***Inspections*** window
+               <li>
+                 <details><!--  LEV4: disable Markdown Non-ASCII characters warnings -->
+                   <summary>
+                     disable <i>Markdown</i> <b><i>Non-ASCII characters</b></i> warnings
+                   </summary>
+
+        * select ***Internationalization*** **>** ***Non-ASCII characters***
+        * ***Severity:*** select from ***In All Scopes*** list ***Project Non-Source Files***
+        * in ***Severity by Scope*** select ***Project Non-Source Files***
+        * in ***Options, Warn of:*** unselect all warning
+        *  ***Apply*** changes-->
+                 </details><!-- LEV4: disable Markdown Non-ASCII characters warnings -->
+               </li>
+               <li>
+                 <details><!--  LEV4: disable other Markdown warnings -->
+                   <summary>
+                     disable other <i>Markdown </i> warnings
+                   </summary>
+
+           * select ***Markdown*** **>** ***Reference Issues***
+           * uncheck ***Link text does not match heading***
+           * uncheck ***Validate emoji shortcuts***
+                </details><!-- LEV4: disable other Markdown warnings -->
+              </li>
+             </ul>
+           </details><!-- LEV3: disable Markdown warnings -->
+           <details><!--  LEV3: set Markdown document icon -->
+             <summary>
+               set <i>Markdown</i> document icon
+             </summary>
+
+            * select ***Languages & Frameworks*** **>** ***Markdown*** window
+            * in ***Application Settings*** **|** ***Project View*** sub-window set ***Document Icon*** to ***Markdown***
+            * ***Apply*** changes
+           </details><!-- LEV3: set Markdown document icon -->
+           <details><!--  LEV3: disable Link Anchor error messages -->
+             <summary>
+               disable <b><i>Link Anchor</i></b> error messages
+             </summary>
+
+            * select ***Languages & Frameworks*** **>** ***Markdown*** **>** ***Annotator***
+            * select ***Link Anchors*** tab
+            * uncheck ***Anchor reference id is not resolved***
+            * ***Apply*** changes
+           </details><!--  LEV3: disable Link Anchor error messages -->
          </blockquote>
        </details><!-- LEV2: set up Markdown editor -->
     </blockquote>
@@ -814,3 +921,29 @@ open *Main Menu* **:** *File* **:** *Settings* **|** *KeyMap*.
 > * go to your repository main page `https://github.com/[USERNAME]/[REPOSITORY_NAME]`
 > * add `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commits`**
 > * or `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commit`**
+---
+## Anchored Header Template
+<!-- ANCHORED HEADER TEMPLATE (copy to clipboard from TOP to BOTTOM) -->
+
+<!-- TOP -->
+<details>
+  <summary>
+    <h3>
+      <a class="anchor" id= "header-link">
+        <sup>:ballot_box_with_check:&ensp;</sup>
+          <span> REPLACE <div>&emsp;&emsp;this entire</div> <a href="#header-link"><div>&emsp;&emsp;html code line</div></a>&emsp;&emsp;starting from <code>&#x276C;span&#x276D;</code> tag!!! </span>
+      </a>
+    </h3>
+  </summary>
+
+<!-- LEAVE UPPER^ LINE EMPTY!!! -->
+> OVERRITE ENTIRE LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
+><br></br><!--^ BLOCKQUOTE -->
+</details>
+
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
+<!-- ^BOTTOM, MOVE OUT BLOCK BELOW! -->
+
+<!-- END OF TEMPLATE -->
+
+
