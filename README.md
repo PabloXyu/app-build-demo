@@ -23,8 +23,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 
 <!-- TOP OF FAQ -->
 ![](https://via.placeholder.com/1000x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
-<!-- TOP OF FAQ -->
-<details>
+<details><!-- TOP OF FAQ -->
   <summary>
     <h2>
       <a class="anchor" id="faq">
@@ -33,6 +32,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
     </h2>
   </summary>
 
+![](https://via.placeholder.com/1000x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- What is Gradle? -->
 <details>
   <summary>
@@ -488,7 +488,7 @@ repositories by default, but it does not configure any dependencies.
     </h3>
   </summary>
 
-<!--todo: make up-->
+<!--todo: classpath -->
 <!-- LEAVE UPPER^ LINE EMPTY!!! -->
 > OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
 ><br></br><!--^ BLOCKQUOTE -->
@@ -499,33 +499,34 @@ repositories by default, but it does not configure any dependencies.
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "classpath">
+      <a class="anchor" id= "implementation">
         <sup>:ballot_box_with_check:&ensp;</sup>What is <code>implementation()</code>
       </a>
     </h3>
   </summary>
 
-<!--todo: make up-->
+<!--todo:  implementation -->
 <!-- LEAVE UPPER^ LINE EMPTY!!! -->
 > OVERRITE THIS LINE BY MARKDOWN BLOCKQUOTED `>`[CONTENT](#header-link) !!!
 ><br></br><!--^ BLOCKQUOTE -->
 </details>
 
-</details>
-<!-- ^BOTTOM OF FAQ -->
-<!-- ^BOTTOM OF FAQ -->
+<!--todo: classpath vs. implementation -->
+<!--todo: Composite Build -->
+
+
+
+</details><!-- ^BOTTOM OF FAQ -->
 
 <!-- TOP OF PRELIMINARY WORK -->
 ![](https://via.placeholder.com/1000x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
 <!-- TOP OF PRELIMINARY WORK -->
 <details>
   <summary>
-    <h3>
-      <a class="anchor" id="faq">
-        Preliminary Work<sup>:hammer:</sup>
-      </a>
-    </h3>
+    <h2> <a class="anchor" id="preliminary-work"> Preliminary Work<sup>:hammer:</sup> </a> </h2>
   </summary>
+  <blockquote>
+<span>
 
 * start *New empty project* by *Phone & Tablet* template with *No Activity* option.
 * use the same name `composite-build-demo` for application name and its location directory.
@@ -543,299 +544,148 @@ repositories by default, but it does not configure any dependencies.
 * update `app:src\main\AndroidManifest.xml` file adding `android:fullBackupContent="@xml/app_backup_rules`.
 * in `AndroidManifest` refactor *theme* to camel case (e.g. `Compositebuilddemo` to `CompositeBuildDemo`).
 * add `app_backup_rules.xml` file to *App* module resources in `/src/main/res/xml`.
-* install Markdown editor (optional)<sup>:bangbang:</sup>
-* <details><!--  LEV1: Markdown editor installation & setup (optional) -->
-    <summary>
-      <a href="https://vladsch.com/product/markdown-navigator"> <i> Markdown </i> </a>
-      editor installation &#38; setup (optional) <sup>:bangbang:</sup>
-    </summary>
-      <blockquote>
-       <details><!--  LEV2: install Markdown Navigator plugin -->
-        <summary>
-          install
-          <a href="https://vladsch.com/product/markdown-navigator"> <i> Markdown Navigator </i> </a>
-          plugin
-        </summary>
-         <blockquote>
-
-  * download [*Markdown Navigator Enhanced*](https://vladsch.com/product/markdown-navigator) plugin, e.g. version [*3.0.202.112*](https://plugins.jetbrains.com/plugin/download?rel=true&updateId=97563)
-  * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
-  * select ***Plugins***
-  * in ***Plugins*** window menu select from :gear:<sup>***Settings***</sup> list: ***Install Plugin from Disk…***
-  * restart IDE
-
-        </blockquote>
-       </details><!-- LEV2: install Markdown Navigator plugin -->
-       <details><!--  LEV2: set up Markdown editor -->
-         <summary>
-           set up
-           <a href="https://vladsch.com/product/markdown-navigator"> <i>Markdown</i> </a>
-           editor
-         </summary>
-         <blockquote>
-
-  * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
-           <details><!--  LEV3: disable Markdown warnings -->
-             <summary>
-               disable <i>Markdown</i> warnings &#x26; errors
-             </summary>
-             <ul style=“list-style-type:none”><!--indent-->
-
-      * select ***Editor*** **>** ***Inspections*** window
-               <li>
-                 <details><!--  LEV4: disable Markdown Non-ASCII characters warnings -->
-                   <summary>
-                     disable <i>Markdown</i> <b><i>Non-ASCII characters</b></i> warnings
-                   </summary>
-
-        * select ***Internationalization*** **>** ***Non-ASCII characters***
-        * ***Severity:*** select from ***In All Scopes*** list ***Project Non-Source Files***
-        * in ***Severity by Scope*** select ***Project Non-Source Files***
-        * in ***Options, Warn of:*** unselect all warning
-        *  ***Apply*** changes-->
-                 </details><!-- LEV4: disable Markdown Non-ASCII characters warnings -->
-               </li>
-               <li>
-                 <details><!--  LEV4: disable other Markdown warnings -->
-                   <summary>
-                     disable other <i>Markdown </i> warnings
-                   </summary>
-
-           * select ***Markdown*** **>** ***Reference Issues***
-           * uncheck ***Link text does not match heading***
-           * uncheck ***Validate emoji shortcuts***
-                </details><!-- LEV4: disable other Markdown warnings -->
-              </li>
-             </ul>
-           </details><!-- LEV3: disable Markdown warnings -->
-           <details><!--  LEV3: set Markdown document icon -->
-             <summary>
-               set <i>Markdown</i> document icon
-             </summary>
-
-            * select ***Languages & Frameworks*** **>** ***Markdown*** window
-            * in ***Application Settings*** **|** ***Project View*** sub-window set ***Document Icon*** to ***Markdown***
-            * ***Apply*** changes
-           </details><!-- LEV3: set Markdown document icon -->
-           <details><!--  LEV3: disable Link Anchor error messages -->
-             <summary>
-               disable <b><i>Link Anchor</i></b> error messages
-             </summary>
-
-            * select ***Languages & Frameworks*** **>** ***Markdown*** **>** ***Annotator***
-            * select ***Link Anchors*** tab
-            * uncheck ***Anchor reference id is not resolved***
-            * ***Apply*** changes
-           </details><!--  LEV3: disable Link Anchor error messages -->
-         </blockquote>
-       </details><!-- LEV2: set up Markdown editor -->
-    </blockquote>
-  </details><!--  LEV1: Markdown editor installation & setup (optional) -->
+* [Markdown editor installation & setup](#markdown-editor)<sup>:bangbang:</sup> (optional)
 * add `README.md` file in root directory.
 * rebuild the project.
-* *Version Control*: make first Push.
-</details>
-
-<!-- ^BOTTOM OF PRELIMINARY WORK -->
+* Version Control*: make first Push.
+</span>
+  </blockquote>
+</details><!-- ^BOTTOM OF PRELIMINARY WORK -->
 <!-- ^BOTTOM OF PRELIMINARY WORK -->
 
 <!-- TOP OF MARKDOWN INSTALLATION -->
-![](https://via.placeholder.com/1000x10.png/0078D7/0078D7/text=+)<!--3px blue line-->
+![](https://via.placeholder.com/1000x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
 <!-- TOP OF MARKDOWN INSTALLATION -->
-<details xmlns="http://www.w3.org/1999/html"><!--  LEV1: Markdown editor installation & setup (optional) -->
+<details><!--  LEV1: Markdown editor installation & setup (optional) -->
   <summary>
-    <h3>
-      <a href="https://vladsch.com/product/markdown-navigator"> <i> This is Markdown </i> </a>
-      editor installation &#38; setup (optional) <sup>:bangbang:</sup><sup>:bangbang:</sup>
-    </h3>
+    <h2>
+      <a class="anchor" id= "markdown-editor">
+      <sup>:bangbang:&ensp;</sup><i>Markdown </i>editor installation &#38; setup
+      </a>
+    </h2>
   </summary>
   <blockquote>
-    <details><!--  LEV2: install Markdown Navigator plugin -->
-      <summary>
-        install
-        <a href="https://vladsch.com/product/markdown-navigator"><i> Markdown Navigator</i></a>
-        plugin
-      </summary>
+    <ul>
+      <li><!--  LEV2: install Markdown Navigator plugin -->
+        <details>
+          <summary>
+            install <b><i>Markdown Navigator</i></b> plugin
+          </summary>
+          <ul><!-- LEV2 LIST ITEMS: #1-5 -->
+<span>
 
-<!-- LEV2 LIST ITEMS: #1-5 -->
 * download [*Markdown Navigator Enhanced*](https://vladsch.com/product/markdown-navigator) plugin, e.g. version [*3.0.202.112*](https://plugins.jetbrains.com/plugin/download?rel=true&updateId=97563)
 * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
 * select ***Plugins***
 * in ***Plugins*** window menu select from :gear:<sup>***Settings***</sup> list: ***Install Plugin from Disk…***
 * restart IDE
-    </details><!--^LEV2: install Markdown Navigator plugin -->
+</span>
+          </ul><!--^LEV2 LIST ITEMS: #1-5 -->
+        </details>
+      </li><!--^LEV2: install Markdown Navigator plugin -->
+      <li><!--  LEV2: set up Markdown editor -->
+        <details>
+          <summary>
+            set up <b><i>Markdown</i></b> editor
+          </summary>
+          <ul><!-- LEV2 LIST ITEM: #1 -->
+<span>
 
-    <details><!--  LEV2: set up Markdown editor -->
-      <summary>
-        set up
-        <a href="https://vladsch.com/product/markdown-navigator"> <i>Markdown</i> </a>
-        editor
-      </summary>
+* select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
+</span>
+          </ul><!--^LEV2 LIST ITEM: #1 -->
+          <ul><ul>
+            <li><!--  LEV3: disable Markdown warnings -->
+              <details>
+                <summary>
+                  disable <i>Markdown</i> warnings
+                </summary>
+                <ul><!--  LEV3 LIST ITEM: #1 -->
+<span>
 
-        <!-- LEV3 LIST ITEM: #1 -->
-   * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
-        <!-- LEV3 LIST ITEM: #2 -->
-        <details><!--  LEV3: disable Markdown warnings -->
-          <summary>
-            disable <i>Markdown</i> warnings
-          </summary>
-            <!-- LEV3 LIST ITEM: #1 -->
-  * select ***Editor*** **>** ***Inspections*** window
-            <!-- LEV3 LIST ITEM: #2 -->
-            <details><!--  LEV4: disable Markdown Non-ASCII characters warnings -->
-              <summary>
-                disable <i>Markdown</i> <b><i>Non-ASCII characters</b></i> warnings
-              </summary>
-            <!-- LEV4 LIST ITEMS: #1-5 -->
-     * select ***Internationalization*** **>** ***Non-ASCII characters***
-     * ***Severity:*** select from ***In All Scopes*** list ***Project Non-Source Files***
-     * in ***Severity by Scope*** select ***Project Non-Source Files***
-     * in ***Options, Warn of:*** unselect all warning
-     *  ***Apply*** changes-->
-            </details><!--^LEV4: disable Markdown Non-ASCII characters warnings -->
-            <!-- LEV3 LIST ITEM: #3 -->
-            <details><!--  LEV4: disable other Markdown warnings -->
-            <!-- LEV4 LIST ITEMS: #1-3 -->
-     * select ***Markdown*** **>** ***Reference Issues***
-     * uncheck ***Link text does not match heading***
-     * uncheck ***Validate emoji shortcuts***
-            </details><!--^LEV4: disable other Markdown warnings -->
-        </details><!--^LEV3: disable Markdown warnings -->
-        <!-- LEV3 LIST ITEM: #3 -->
-        <details><!--  LEV3: set Markdown document icon -->
-          <summary>
-            set <i>Markdown</i> document icon
-          </summary>
-            <!-- LEV4 LIST ITEMS: #1-3 -->
-     * select ***Languages & Frameworks*** **>** ***Markdown*** window
-     * in ***Application Settings*** **|** ***Project View*** sub-window set ***Document Icon*** to ***Markdown***
-     * ***Apply*** changes
-        </details><!--^LEV3: set Markdown document icon -->
-        <!-- LEV3 LIST ITEM: #4 -->
-        <details><!--  LEV3: disable Link Anchor error messages -->
-          <summary>
-            disable <b><i>Link Anchor</i></b> error messages
-          </summary>
-          <!-- LEV4 LIST ITEMS: #1-4 -->
-     * select ***Languages & Frameworks*** **>** ***Markdown*** **>** ***Annotator***
-     * select ***Link Anchors*** tab
-     * uncheck ***Anchor reference id is not resolved***
-     * ***Apply*** changes
-        </details><!--^LEV3: disable Link Anchor error messages -->
-    </details><!--^LEV2: set up Markdown editor -->
+* select ***Editor*** **>** ***Inspections*** window
+</span>
+                </ul><!--^LEV3 LIST ITEM: #1 -->
+                <ul><ul>
+                  <li>
+                    <details><!--  LEV4: disable Markdown Non-ASCII characters warnings -->
+                      <summary>
+                        disable <i>Markdown</i> <b><i>Non-ASCII characters</b></i> warnings
+                      </summary>
+                      <ul><!--  LEV4 LIST ITEMS: #1-5 -->
+<span>
+
+* select ***Internationalization*** **>** ***Non-ASCII characters***
+* ***Severity:*** select from ***In All Scopes*** list ***Project Non-Source Files***
+* in ***Severity by Scope*** select ***Project Non-Source Files***
+* in ***Options, Warn of:*** unselect all warning
+*  ***Apply*** changes->
+</span>
+                      <ul><!--  LEV4 LIST ITEMS: #1-5 -->
+                    </details><!--^LEV4: disable Markdown Non-ASCII characters warnings -->
+                  </li>
+                  <li>
+                    <details><!--  LEV4: disable other Markdown warnings -->
+                      <summary>
+                        disable other <i>Markdown </i> warnings
+                      </summary>
+                      <ul><!--  LEV4 LIST ITEMS: #1-3 -->
+<span>
+
+* select ***Markdown*** **>** ***Reference Issues***
+* uncheck ***Link text does not match heading***
+* uncheck ***Validate emoji shortcuts***
+</span>
+                      <ul><!--  LEV4 LIST ITEMS: #1-3 -->
+                    </details><!--^LEV4: disable other Markdown warnings -->
+                  </li>
+                </ul></ul>
+              </details>
+            </li><!--^LEV3: disable Markdown warnings -->
+            <li><!--  LEV3: set Markdown document icon -->
+              <details>
+                <summary>
+                  set <i>Markdown</i> document icon
+                </summary>
+                <ul><!--  LEV3 LIST ITEMS: #1-3 -->
+<span>
+
+* select ***Languages & Frameworks*** **>** ***Markdown*** window
+* in ***Application Settings*** **|** ***Project View*** sub-window set ***Document Icon*** to ***Markdown***
+* ***Apply*** changes
+</span>
+                <ul><!--  LEV3 LIST ITEMS: #1-3 -->
+              </details>
+            </li><!--^LEV3: set Markdown document icon -->
+            <li><!--  LEV3: disable Link Anchor error messages -->
+              <details>
+                <summary>
+                  disable <b><i>Link Anchor</i></b> error messages
+                </summary>
+                <ul><!--  LEV3 LIST ITEMS: #1-4 -->
+<span>
+
+* select ***Languages & Frameworks*** **>** ***Markdown*** **>** ***Annotator***
+* select ***Link Anchors*** tab
+* uncheck ***Anchor reference id is not resolved***
+* ***Apply*** changes
+</span>
+                <ul><!--  LEV3 LIST ITEMS: #1-4 -->
+              </details>
+            </li><!--^LEV3: disable Link Anchor error messages -->
+          </ul></ul>
+        </details>
+      </li><!--^LEV2: set up Markdown editor -->
+    </ul>
+  <br/>
   </blockquote>
 </details><!--^LEV1: Markdown editor installation & setup (optional) -->
+<span>
 
-
-### Preliminary Work<sup>:hammer:</sup> Not Collapsible
-
-* start *New empty project* by *Phone & Tablet* template with *No Activity* option.
-* use the same name `composite-build-demo` for application name and its location directory.
-* create package name `com.example.demo`.
-* *Version Control*: make *Initial Commit*: (*GitHub*: [`~/composite-build-demo`](https://github.com/PabloXyu/composite-build-demo)).
-* update `gradle.properties` to multi-module project.
-* in `~/.gitignore` add lines `/.idea/name` & `/.idea/vcs.xml`, `/gradle`.
-* extend `settings.gradle`, `build.gradle`, `:app:build.gradle` files to [`*.kts`](https://docs.gradle.org/current/userguide/kotlin***dsl.html#sec:scripts).
-* with those *Gradle* files [migrate from *Groovy* to *Kotlin DSL*](https://developer.android.com/studio/build/migrate-to-kts).
-* in `settings.gradle`add ***Gradle [Plugin](#plugin) Portal*** repository.
-* in root `build.gradle` add snippet to enable *Kotlin Source Root* for each module.
-* in `app:build.gradle` update *JVM* & `compileOptions` to *Java* version *11*.
-* set *compileSdk* & *targetSdk* to level *31*.
-* set *Target JVM* (*IDE Kotlin Compiler* option) to version *11*.
-* update `app:src\main\AndroidManifest.xml` file adding `android:fullBackupContent="@xml/app_backup_rules`.
-* in `AndroidManifest` refactor *theme* to camel case (e.g. `Compositebuilddemo` to `CompositeBuildDemo`).
-* add `app_backup_rules.xml` file to *App* module resources in `/src/main/res/xml`.
-* <details><!--  LEV1: Markdown editor installation & setup (optional) -->
-    <summary>
-      <a href="https://vladsch.com/product/markdown-navigator"> <i> Markdown </i> </a>
-      editor installation &#38; setup (optional) <sup>:bangbang:</sup>
-    </summary>
-    <blockquote>
-       <details><!--  LEV2: install Markdown Navigator plugin -->
-        <summary>
-          install
-          <a href="https://vladsch.com/product/markdown-navigator"> <i> Markdown Navigator </i> </a>
-          plugin
-        </summary>
-         <blockquote>
-
-  * download [*Markdown Navigator Enhanced*](https://vladsch.com/product/markdown-navigator) plugin, e.g. version [*3.0.202.112*](https://plugins.jetbrains.com/plugin/download?rel=true&updateId=97563)
-  * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
-  * select ***Plugins***
-  * in ***Plugins*** window menu select from :gear:<sup>***Settings***</sup> list: ***Install Plugin from Disk…***
-  * restart IDE
-        </blockquote>
-       </details><!-- LEV2: install Markdown Navigator plugin -->
-       <details><!--  LEV2: set up Markdown editor -->
-         <summary>
-           set up
-           <a href="https://vladsch.com/product/markdown-navigator"> <i>Markdown</i> </a>
-           editor
-         </summary>
-         <blockquote>
-
-    * select ***Main Menu*** **|** ***File*** **|** [***Settings…***](#useful-keyboard-shortcuts)
-           <details><!--  LEV3: disable Markdown warnings -->
-             <summary>
-               disable <i>Markdown</i> warnings &#x26; errors
-             </summary>
-             <ul style=“list-style-type:none”><!--indent-->
-
-      * select ***Editor*** **>** ***Inspections*** window
-               <li>
-                 <details><!--  LEV4: disable Markdown Non-ASCII characters warnings -->
-                   <summary>
-                     disable <i>Markdown</i> <b><i>Non-ASCII characters</b></i> warnings
-                   </summary>
-
-        * select ***Internationalization*** **>** ***Non-ASCII characters***
-        * ***Severity:*** select from ***In All Scopes*** list ***Project Non-Source Files***
-        * in ***Severity by Scope*** select ***Project Non-Source Files***
-        * in ***Options, Warn of:*** unselect all warning
-        *  ***Apply*** changes-->
-                 </details><!-- LEV4: disable Markdown Non-ASCII characters warnings -->
-               </li>
-               <li>
-                 <details><!--  LEV4: disable other Markdown warnings -->
-                   <summary>
-                     disable other <i>Markdown </i> warnings
-                   </summary>
-
-           * select ***Markdown*** **>** ***Reference Issues***
-           * uncheck ***Link text does not match heading***
-           * uncheck ***Validate emoji shortcuts***
-                </details><!-- LEV4: disable other Markdown warnings -->
-              </li>
-             </ul>
-           </details><!-- LEV3: disable Markdown warnings -->
-           <details><!--  LEV3: set Markdown document icon -->
-             <summary>
-               set <i>Markdown</i> document icon
-             </summary>
-
-            * select ***Languages & Frameworks*** **>** ***Markdown*** window
-            * in ***Application Settings*** **|** ***Project View*** sub-window set ***Document Icon*** to ***Markdown***
-            * ***Apply*** changes
-           </details><!-- LEV3: set Markdown document icon -->
-           <details><!--  LEV3: disable Link Anchor error messages -->
-             <summary>
-               disable <b><i>Link Anchor</i></b> error messages
-             </summary>
-
-            * select ***Languages & Frameworks*** **>** ***Markdown*** **>** ***Annotator***
-            * select ***Link Anchors*** tab
-            * uncheck ***Anchor reference id is not resolved***
-            * ***Apply*** changes
-           </details><!--  LEV3: disable Link Anchor error messages -->
-         </blockquote>
-       </details><!-- LEV2: set up Markdown editor -->
-    </blockquote>
-  </details><!-- LEV1: Markdown editor installation & setup (optional) -->
-
-  * add `README.md` file in root directory.
-  * rebuild the project.
-  * *Version Control*: make first Push.
-<br/><br/>
+<!-- BOTTOM OF MARKDOWN INSTALLATION -->
+![](https://via.placeholder.com/1000x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
+<!-- BOTTOM OF MARKDOWN INSTALLATION -->
+</span>
 
 ## Adding ***Build Source*** `buildSrc` & ***Build*** ***Plugin*** `buildPlg` modules<sup>:blue_square:</sup>
 * create directory for module `:buildSrc` (***Build Source***) with file `build.gradle.kts` including repos.
@@ -855,10 +705,12 @@ repositories by default, but it does not configure any dependencies.
     * this should insert `@file:Suppress("UnstableApiUsage")` at the top of the file
 <br/><br/>
 * rebuild the project
----
-<!--todo: classpath vs. implementation -->
-<!--todo: Composite Build -->
-----
+<span>
+
+![](https://via.placeholder.com/1000x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
+<!-- BOTTOM OF ADDING MODULES -->
+</span><!-- BOTTOM OF OF ADDING MODULES -->
+
 ## Testing<sup>:test_tube:</sup> the ***Build*** Process From the Scratch
 1. delete root project directories marked orange:
     * `~/.gradle`
@@ -901,7 +753,8 @@ open *Main Menu* **:** *File* **:** *Settings* **|** *KeyMap*.
     * *Add Keyboard Shortcut*: `[CTRL]`+`[ALT]`+`/`
     * *Add Mouse Shortcut*: `[CTRL]`+`[DoubleClick]`
 <!-- todo: add mouse scrolling -->
-<!-- todo: add mouse scrolling info -->
+<!-- todo: add mouse scrolling info ???-->
+---
 ##  <a name="Settings…"></a>Useful Keyboard Shortcuts
 
 |DEFAULT    | KEYMAP KEYS          |MOUSEMAP                 |ACTION                    |
@@ -922,7 +775,7 @@ open *Main Menu* **:** *File* **:** *Settings* **|** *KeyMap*.
 > * add `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commits`**
 > * or `https://github.com/[USERNAME]/[REPOSITORY_NAME]/`**`commit`**
 ---
-## Anchored Header Template
+## Collapsible Anchored Header Template
 <!-- ANCHORED HEADER TEMPLATE (copy to clipboard from TOP to BOTTOM) -->
 
 <!-- TOP -->
@@ -945,5 +798,3 @@ open *Main Menu* **:** *File* **:** *Settings* **|** *KeyMap*.
 <!-- ^BOTTOM, MOVE OUT BLOCK BELOW! -->
 
 <!-- END OF TEMPLATE -->
-
-
