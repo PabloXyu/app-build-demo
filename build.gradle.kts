@@ -1,37 +1,18 @@
 //import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-// Top-level build file where you can add configuration options
-// common to all sub-projects/modules.
-
 /**
- * The repositories block configures the repositories
- * Gradle uses to search or download the dependencies.
- * Gradle pre-configures support for remote repositories
- * such as Google, Maven Central, and Gradle Plugin Portal.
- * You can also use local repositories or define your own remote repositories.
- */
-
-/**
- * The buildscript block is where you configure
- * the repositories and dependencies for Gradle itself—meaning,
- * you should not include dependencies for your modules here.
+ * The top-level build.gradle file, located in the root project directory,
+ * defines dependencies that apply to all modules in the project.
+ * 
+ * By default, the top-level build file uses the plugins{} block
+ * to define the Gradle dependencies that are common to all modules in the project.
  *
- * For example,
- * this block includes the Android plugin for Gradle as a dependency
- * because it provides the additional instructions
- * Gradle needs to build Android app modules.
+ * Top-level build file where you can add configuration options
+ * common to all sub-projects/modules.
+ *
  */
 
-
-/**
- * Kotlin DSL Pros:
- * ==================================
- *  • Simplified plugins syntax
- *  • Default lazy task configuration
- *  • Compile time checks
- *  • Better IDE experience
- *  • It’s Kotlin!
- */
+//https://github.com/PabloXyu/app-build-demo/edit/master/README.md#the-top-level-build-file
 
 // plugin{} block always first!
 /*
@@ -47,13 +28,6 @@ plugins {
     }
 */
 
-/**
- * The repositories block configures the repositories
- * Gradle uses to search or download the dependencies.
- * Gradle pre-configures support for remote repositories
- * such as Google, Maven Central, and Gradle Plugin Portal.
- * You can also use local repositories or define your own remote repositories.
- */
 buildscript {
     repositories {
         google()

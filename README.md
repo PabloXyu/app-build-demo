@@ -516,6 +516,7 @@ repositories by default, but it does not configure any dependencies.
     </h3>
   </summary>
   <blockquote>
+<!-- todo: correct the text -->
 <span><!-- leave the next line blank -->
 
 The [***top-level*** `build.gradle`](https://developer.android.com/studio/build#top-level)
@@ -525,10 +526,10 @@ defines dependencies that apply to all modules in the project.
 By default, the top-level build file uses the [`plugins{}`](#plugin) block  
 to define the *[Gradle](#gradle)* dependencies  
 that are common to all modules in the project.
-<br/>
-In addition, the top-level build file contains code to clean your build directory.  
-The following code sample describes the default settings  
-and *DSL* elements you can find in the top-level `build.gradle` file after creating a new project.
+
+ * Top-level build file where you can add configuration options
+ * common to all sub-projects/modules.
+
 <span>
 <br/><br/>
   </blockquote>
@@ -1165,7 +1166,7 @@ Here is an implicit way how to achieve that:
   </summary>
   <blockquote>
 
-[TODO: REPLACE THE CONTENT!](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
+[This is the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
     <br/>
   </blockquote>
 </details>
@@ -1187,7 +1188,7 @@ Here is an implicit way how to achieve that:
   <blockquote>
 <span><!-- leave the next line blank -->
 
-[TODO: REPLACE THE CONTENT!](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
+[This is the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
 </span>  
     <br/>
   </blockquote>
@@ -1198,3 +1199,6 @@ Here is an implicit way how to achieve that:
 </span>
 ```
 <!-- ^BOTTOM OF FAQ QUESTION TEMPLATE AND CODE-->
+---
+### Click!
+#### [The Top-level Build File](#top-level-build)
