@@ -56,7 +56,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 that helps you manipulate the build process and its logic.
 <br/>
 When you build an app, it is ***Gradle*** that compiles  
-all the code and creates an ***APK*** for you.
+all the code and creates an [***APK***](#apk) for you.
 </span>
     <br/><br/>
   </blockquote>
@@ -75,7 +75,7 @@ all the code and creates an ***APK*** for you.
   <blockquote>
 <span><!-- leave the next line blank -->
 
-APK stands for ***Android Package Kit***  
+***APK*** stands for [***Android Package Kit***](https://whatis.techtarget.com/definition/APK-file-Android-Package-Kit-file-format)  
 It's the file format that Android uses to distribute and install apps.  
 As a result, `APK`s contain all the elements  
 that an app needs to install correctly on the device.
