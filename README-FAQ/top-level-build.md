@@ -1,6 +1,6 @@
 ![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- The Top-level Build File -->
-<details >
+<details open>
   <summary>
     <h3>
       <a class="anchor" id= "top-level-build">
@@ -18,7 +18,6 @@ defines dependencies that apply to all modules in the project.
 By default, the top-level build file uses the [`plugins{}`](#plugin) block  
 to define the *[Gradle](#gradle)* dependencies  
 that are common to all sub-projects/modules in the project.
-
 <span>
 <br/><br/>
   </blockquote>

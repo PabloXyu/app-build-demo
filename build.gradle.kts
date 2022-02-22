@@ -12,7 +12,10 @@
  *
  */
 
-//https://github.com/PabloXyu/app-build-demo#the-top-level-build-file
+//todo: when the project is renamed replace app-build-demo
+//https://github.com/PabloXyu/app-build-demo/blob/master/README-FAQ/top-level-build.md
+
+
 // plugin{} block always first!
 /*
 plugins {
