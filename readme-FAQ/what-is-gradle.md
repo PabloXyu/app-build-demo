@@ -1,6 +1,6 @@
 ![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--blue line-->
 <!-- What is Gradle? -->
-<details>
+<details open>
   <summary>
     <h3>
       <a class="anchor" id="what-is-gradle">

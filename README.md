@@ -41,10 +41,9 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <!-- NOTE: name of anchor the same as question sentence -->
 
 <!-- TOP OF Questions -->
-![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--blue line-->
-<!-- What is Gradle? -->
-<details>
-  <summary>
+https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/what-is-gradle.md
+![include](README-FAQ/what-is-gradle.md)
+![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--blue line--><!-- What is Gradle? --><details>  <summary>
     <h3>
       <a class="anchor" id="what-is-gradle">
         <sup>:ballot_box_with_check:&ensp;</sup>What is Gradle?
