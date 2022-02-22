@@ -1,19 +1,5 @@
-//import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
-/**
- * The top-level build.gradle file, located in the root project directory,
- * defines dependencies that apply to all modules in the project.
- * 
- * By default, the top-level build file uses the plugins{} block
- * to define the Gradle dependencies that are common to all modules in the project.
- *
- * Top-level build file where you can add configuration options
- * common to all sub-projects/modules.
- *
- */
-
-//todo: when the project is renamed replace app-build-demo
-//https://github.com/PabloXyu/app-build-demo/blob/master/README-FAQ/top-level-build.md
+// Click on the link below with [CTRL] Key:
+// https://github.com/PabloXyu/app-build-demo/blob/master/README-FAQ/the-top-level-build-file.md
 
 
 // plugin{} block always first!
