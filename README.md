@@ -516,7 +516,6 @@ repositories by default, but it does not configure any dependencies.
     </h3>
   </summary>
   <blockquote>
-<!-- todo: correct the text -->
 <span><!-- leave the next line blank -->
 
 The [***top-level*** `build.gradle`](https://developer.android.com/studio/build#top-level)
@@ -525,10 +524,7 @@ defines dependencies that apply to all modules in the project.
 <br/>
 By default, the top-level build file uses the [`plugins{}`](#plugin) block  
 to define the *[Gradle](#gradle)* dependencies  
-that are common to all modules in the project.
-
- * Top-level build file where you can add configuration options
- * common to all sub-projects/modules.
+that are common to all sub-projects/modules in the project.
 
 <span>
 <br/><br/>
@@ -1166,7 +1162,7 @@ Here is an implicit way how to achieve that:
   </summary>
   <blockquote>
 
-[This is the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
+[That's the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
     <br/>
   </blockquote>
 </details>

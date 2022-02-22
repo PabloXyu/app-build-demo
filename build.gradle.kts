@@ -12,8 +12,7 @@
  *
  */
 
-//https://github.com/PabloXyu/app-build-demo/edit/master/README.md#the-top-level-build-file
-
+//https://github.com/PabloXyu/app-build-demo#the-top-level-build-file
 // plugin{} block always first!
 /*
 plugins {
