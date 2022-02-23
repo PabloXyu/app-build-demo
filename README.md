@@ -28,7 +28,8 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 [*Arctic Fox IDE (2020.3.1, Patch 4)*](https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.26/android-studio-2020.3.1.26-windows.exe).
 <!-- TOP OF FAQ chapters -->
 ![](https://via.placeholder.com/1024x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
-<details>
+<details open>
+<!-- fixme^: remove "open" option when ready. -->
   <summary>
     <h2>
       <a class="anchor" id="questionfaq">

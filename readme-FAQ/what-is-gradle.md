@@ -12,7 +12,7 @@
 that helps you manipulate the build process and its logic.
 <br/>
 When you build an app, it is ***Gradle*** that compiles  
-all the code and creates an [***APK***](#what-is-an-apk-file) for you.
+all the code and creates an [***APK***](what-is-an-apk-file.md) for you.
 </span>
   <br/><br/>
 </blockquote>
