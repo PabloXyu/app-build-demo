@@ -7,7 +7,7 @@
 <blockquote>
 <span><!-- leave the next line blank -->
 
-That's [the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
+That's [the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)  
 [link](what-is-the-meaning-of-life.md) to file in the same readme-FAQ directory
 </span>
   <br/><br/>
