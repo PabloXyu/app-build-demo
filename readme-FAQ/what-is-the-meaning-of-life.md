@@ -13,5 +13,8 @@ That's [the meaning of life...](https://www.google.com/search?q=what+is+the+mean
   <br/><br/>
 </blockquote>
 
-![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
-<p align="right"><a href="/../../#--------------questionfaq----------">FAQ</a></p>
+![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--1px blue line-->
+<p align="right"><a href="/../../#--------------questionfaq----------"><b>FAQ</b></a></p>
+
+
+<!-- -->
