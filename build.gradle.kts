@@ -1,5 +1,19 @@
 // Click on the link below with [CTRL] Key:
 // https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/the-top-level-build-file.md
+// TODO: rename /app-build-demo to /another-app-name dir when used in repo "another-app-name"
+
+//TEST:
+// https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/.md
+
+// https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/what-is-the-meaning-of-life.md
+
+// https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/the-top-level-build-file.md
+// https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/what-is-a-gradle-plugin.md
+// https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/what-is-an-apk-file.md
+// https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/what-is-gradle.md
+// https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/what-is-jdk.md
+
+
 
 
 // plugin{} block always first!

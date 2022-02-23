@@ -1,8 +1,6 @@
 ![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
-<h2>
-  <a class="anchor" id="what-is-an-apk-file">
-    <sup>:ballot_box_with_check:&ensp;</sup>What is an <i>APK</i> file?
-  </a>
+<h2><sup>:ballot_box_with_check:&ensp</sup>
+  What is an <i>APK</i> file?
 </h2>
 <blockquote>
 <span><!-- leave the next line blank -->

@@ -1,10 +1,7 @@
 ![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
 <!-- The Top-level Build File -->
-<h2>
-  <a class="anchor" id= "the-top-level-build-file">
-    <sup>:ballot_box_with_check:&ensp;</sup>
-    The Top-level <b><i>Build File</i></b>
-  </a>
+<h2><sup>:ballot_box_with_check:&ensp;</sup>
+  The Top-level <b><i>Build File</i></b>
 </h2>
 <blockquote>
 <span><!-- leave the next line blank -->
