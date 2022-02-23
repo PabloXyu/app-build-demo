@@ -26,23 +26,19 @@ This documentation includes also:
 
 This app code is written on [*Android Studio*](https://developer.android.com/studio#downloads) version
 [*Arctic Fox IDE (2020.3.1, Patch 4)*](https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.26/android-studio-2020.3.1.26-windows.exe).
-
 <!-- TOP OF FAQ chapters -->
 ![](https://via.placeholder.com/1024x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
 <details>
   <summary>
     <h2>
-      <a class="anchor" id="faq">
+      <a class="anchor" id="questionfaq">
         <sup>:question:&ensp;</sup>FAQ
       </a>
     </h2>
   </summary>
-
 <!-- NOTE: name of anchor the same as question sentence -->
 
 <!-- TOP OF Questions -->
-https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/what-is-gradle.md
-![include](README-FAQ/what-is-gradle.md)
 ![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--blue line--><!-- What is Gradle? --><details>  <summary>
     <h3>
       <a class="anchor" id="what-is-gradle">
@@ -810,8 +806,10 @@ and makes sure we don’t accidentally import different versions of components.
 <!--todo: Composite Build -->
 
 <!--TOP OF FAQ QUESTION TEMPLATE-->
+<span><!-- leave the next line blank -->
 
-![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
+</span>
 <!-- Template: What is the meaning of life? -->
 <details >
   <summary>
@@ -824,8 +822,8 @@ and makes sure we don’t accidentally import different versions of components.
   <blockquote>
 <span><!-- leave the next line blank -->
 
-[TODO: REPLACE THE CONTENT!](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
-</span>  
+That's [the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
+</span>
     <br/>
   </blockquote>
 </details>
@@ -959,7 +957,7 @@ open *Main Menu* **:** *File* **:** *Settings* **|** *KeyMap*.
 <details><!--  LEV1: Markdown editor installation & setup -->
   <summary>
     <h2>
-      <a class="anchor" id= "markdown-installmarkdown-editor-installation--setupbangbang">
+      <a class="anchor" id= "markdown-editor-installation--setupbangbang">
       <i>Markdown </i>Editor Installation &#38; Setup<sup>&ensp;:bangbang:</sup>
       </a>
     </h2>
@@ -1100,7 +1098,7 @@ Here is an implicit way how to achieve that:
 <!-- TOP OF TEMPLATE PARAGRAPH & CODE-->
 ---
 ## Collapsible Paragraph Template:
-#### Github Markdown generated code, template includes 3px blue line on top:
+#### [***Github Markdown***](#markdown-editor-installation--setupbangbang) generated code, template includes 3px blue line on top:
 <span><!-- leave the next line blank -->
 
 ![](https://via.placeholder.com/1024x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
@@ -1160,25 +1158,28 @@ Here is an implicit way how to achieve that:
 
 ---
 ### Collapsible Question Template
-#### Github Markdown generated code, template includes 1px blue line on top:
+#### [***Github Markdown***](#markdown-editor-installation--setupbangbang) generated code, template includes 1px blue line on top:
+
+<!--TOP OF FAQ QUESTION TEMPLATE-->
 <span><!-- leave the next line blank -->
 
 ![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
 </span>
-<!--TOP OF FAQ QUESTION TEMPLATE-->
 <!-- Template: What is the meaning of life? -->
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "faq-template">
+      <a class="anchor" id= "what-is-the-meaning-of-life">
         <sup>:ballot_box_with_check:&ensp;</sup>What is the meaning of <code>life</code>?
       </a>
     </h3>
   </summary>
   <blockquote>
+<span><!-- leave the next line blank -->
 
-[That's the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
-    <br/>
+That's [the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
+</span>
+    <br/><br/>
   </blockquote>
 </details>
 <!--END OF FAQ QUESTION TEMPLATE-->
@@ -1190,21 +1191,26 @@ Here is an implicit way how to achieve that:
 
 ![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
 </span>
-<!--TOP OF FAQ QUESTION TEMPLATE-->
 <!-- Template: What is the meaning of life? -->
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "faq-template">
+      <a class="anchor" id= "what-is-the-meaning-of-life">
         <sup>:ballot_box_with_check:&ensp;</sup>What is the meaning of <code>life</code>?
       </a>
     </h3>
   </summary>
   <blockquote>
+<span><!-- leave the next line blank -->
 
-[That's the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
-    <br/>
+That's [the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
+</span>
+    <br/><br/>
   </blockquote>
 </details>
 ```
 <!-- ^BOTTOM OF FAQ QUESTION TEMPLATE AND CODE-->
+
+![](https://via.placeholder.com/1024x5.png/0078D7/0078D7/text=+)<!--5px blue line-->
+<p align="right"><sup><sub>&COPY;Paweł Zygmunciak</sub></sup></p>
+<!-- END OF DOCUMENT -->
