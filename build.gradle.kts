@@ -1,6 +1,5 @@
 // Click on the link below with [CTRL] Key:
-// https://github.com/PabloXyu/app-build-demo/blob/master/README-FAQ/the-top-level-build-file.md
-// https://github.com/PabloXyu/app-build-demo/blob/master/README-FAQ/what-is-gradle.md
+// https://github.com/PabloXyu/app-build-demo/blob/master/readme-FAQ/the-top-level-build-file.md
 
 
 // plugin{} block always first!
