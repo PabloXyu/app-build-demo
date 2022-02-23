@@ -1,15 +1,13 @@
 ![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
+<!-- The Module-level Build File -->
 <h2><sup>:ballot_box_with_check:&ensp;</sup>
-  What is an <i>APK</i> file?
+  The Module-level <b><i>Build File</i></b>
 </h2>
 <blockquote>
 <span><!-- leave the next line blank -->
 
-***APK*** stands for [***Android Package Kit***](https://whatis.techtarget.com/definition/APK-file-Android-Package-Kit-file-format)  
-It's the file format that Android uses to distribute and install apps.  
-As a result, `APK`s contain all the elements  
-that an app needs to install correctly on the device.
-</span>
+[TODO: REPLACE THE CONTENT!](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)<!--TODO: REPLACE THE CONTENT!-->
+</span>  
   <br/><br/>
 </blockquote>
 
