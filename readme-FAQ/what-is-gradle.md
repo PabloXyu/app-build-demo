@@ -16,5 +16,4 @@ all the code and creates an [***APK***](what-is-an-apk-file.md) for you.
 </span>
   <br/><br/>
 </blockquote>
-![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--1px blue line-->
 <p align="right"><a href="/../../#--------------questionfaq----------"><b>FAQ</b></a></p>
