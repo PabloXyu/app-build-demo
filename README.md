@@ -45,7 +45,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 <details>
   <summary>
     <h3>
-      <a class="anchor" id="what-is-gradle">
+      <a class="anchor" id="01-what-is-gradle">
         <sup>:ballot_box_with_check:&ensp;</sup>What is Gradle?
       </a>
     </h3>
@@ -57,7 +57,7 @@ This app code is written on [*Android Studio*](https://developer.android.com/st
 that helps you manipulate the build process and its logic.
 <br/>
 When you build an app, it is ***Gradle*** that compiles  
-all the code and creates an [***APK***](#what-is-an-apk-file) for you.
+all the code and creates an [***APK***](#02-what-is-an-apk-file) for you.
 </span>
     <br/><br/>
   </blockquote>
@@ -68,7 +68,7 @@ all the code and creates an [***APK***](#what-is-an-apk-file) for you.
 <details>
   <summary>
     <h3>
-      <a class="anchor" id="what-is-an-apk-file">
+      <a class="anchor" id="02-what-is-an-apk-file">
         <sup>:ballot_box_with_check:&ensp;</sup>What is an <i>APK</i> file?
       </a>
     </h3>
@@ -90,7 +90,7 @@ that an app needs to install correctly on the device.
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-jdk">
+      <a class="anchor" id= "03-what-is-jdk">
         <sup>:ballot_box_with_check:&ensp;</sup>What is <b><i>JDK</i></b>
       </a>
     </h3>
@@ -121,7 +121,7 @@ allows developers to create Java programs that can be executed and run by the **
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-kotlin-dsl">
+      <a class="anchor" id= "04-what-is-kotlin-dsl">
         <sup>:ballot_box_with_check:&ensp;</sup>What is Kotlin DSL?
       </a>
     </h3>
@@ -159,8 +159,8 @@ to remove a lot of boilerplate code and hide the internal implementation from th
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "kotlin-dsl-pros">
-        <sup>:ballot_box_with_check:&ensp;</sup><a href="#what-is-kotlin-dsl">Kotlin DSL</a>
+      <a class="anchor" id= "05-kotlin-dsl-pros">
+        <sup>:ballot_box_with_check:&ensp;</sup><a href="#04-what-is-kotlin-dsl">Kotlin DSL</a>
       </a>
       Pros
     </h3>
@@ -172,7 +172,7 @@ to remove a lot of boilerplate code and hide the internal implementation from th
  * Default lazy task configuration
  * Compile time checks
  * Better IDE experience
- * It’s [Kotlin](#what-is-kotlin-dsl)!
+ * It’s [Kotlin](#04-what-is-kotlin-dsl)!
 </span>  
   </blockquote>
 </details>
@@ -182,7 +182,7 @@ to remove a lot of boilerplate code and hide the internal implementation from th
 <details>
   <summary>
     <h3>
-      <a class="anchor" id="what-is-a-gradle-project">
+      <a class="anchor" id="06-what-is-a-gradle-project">
         <sup>:ballot_box_with_check:&ensp;</sup>What is a Gradle Project?
       </a>
     </h3>
@@ -190,7 +190,7 @@ to remove a lot of boilerplate code and hide the internal implementation from th
   <blockquote>
 <span><!-- leave the next line blank -->
 
-Every ***[Gradle](#what-is-gradle)*** [build](#gradle-build-phases) is made up of one or more projects.  
+Every ***[Gradle](#01-what-is-gradle)*** [build](#07-gradle-build-phases) is made up of one or more projects.  
 A project does not necessarily represent a thing to be built.  
 It might represent a thing to be done, such as deploying the application  
 to staging or production environments.
@@ -204,7 +204,7 @@ to staging or production environments.
 <details>
   <summary>
     <h3>
-      <a class="anchor" id="gradle-build-phases">
+      <a class="anchor" id="07-gradle-build-phases">
          <sup>:ballot_box_with_check:&ensp;</sup>Gradle Build Phases
       </a>
     </h3>
@@ -213,18 +213,18 @@ to staging or production environments.
 <span><!-- leave the next line blank -->
 
 * **Initialization**  
-***[Gradle](#what-is-gradle)*** determines which modules are going to take part in the build,  
-and creates a ***[Project](#what-is-a-gradle-project)*** instance for each of modules.
+***[Gradle](#01-what-is-gradle)*** determines which modules are going to take part in the build,  
+and creates a ***[Project](#06-what-is-a-gradle-project)*** instance for each of modules.
 
 * **Configuration**  
-***[Project](#what-is-a-gradle-project)*** tasks and objects are created and configured.  
-All [module](#the-module-level-build-file) build scripts  of the build are executed.
+***[Project](#06-what-is-a-gradle-project)*** tasks and objects are created and configured.  
+All [module](#18-the-module-level-build-file) build scripts  of the build are executed.
 
 * **Execution**  
-***[Gradle](#what-is-gradle)*** determines the subset of tasks to be executed.  
+***[Gradle](#01-what-is-gradle)*** determines the subset of tasks to be executed.  
 The subset is determined by the task name arguments  
 passed to the gradle command and the current directory.  
-***[Gradle](#what-is-gradle)*** then executes each of the selected tasks.
+***[Gradle](#01-what-is-gradle)*** then executes each of the selected tasks.
 </span>
   </blockquote>
 </details>
@@ -234,7 +234,7 @@ passed to the gradle command and the current directory.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id="what-is-a-gradle-task">
+      <a class="anchor" id="08-what-is-a-gradle-task">
         <sup>:ballot_box_with_check:&ensp;</sup>What is a Gradle Task?
       </a>
     </h3>
@@ -242,11 +242,11 @@ passed to the gradle command and the current directory.
   <blockquote>
 <span><!-- leave the next line blank -->
 
-The work that ***[Gradle](#what-is-gradle)*** can do on a ***[Project](#what-is-a-gradle-project)***
+The work that ***[Gradle](#01-what-is-gradle)*** can do on a ***[Project](#06-what-is-a-gradle-project)***
 is defined by one or more tasks.  
 Typically, tasks are provided by applying a plugin  
 so there is no need to define them yourself.  
-A task represents some atomic piece of work which a ***[build](#gradle-build-phases)*** performs.  
+A task represents some atomic piece of work which a ***[build](#07-gradle-build-phases)*** performs.  
 <br/>
 This might be
 * compiling some classes
@@ -263,7 +263,7 @@ This might be
 <details>
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-a-gradle-plugin">
+      <a class="anchor" id= "09-what-is-a-gradle-plugin">
         <sup>:ballot_box_with_check:&ensp;</sup>What is a Gradle Plugin?
       </a>
     </h3>
@@ -271,7 +271,7 @@ This might be
   <blockquote>
 <span><!-- leave the next line blank -->
 
-***[Gradle](#what-is-gradle)*** at its core intentionally provides very little for real world automation.  
+***[Gradle](#01-what-is-gradle)*** at its core intentionally provides very little for real world automation.  
 All of the useful features, like the ability to compile Java code, are added by plugins.  
 <br/>
 ***Plugins*** add
@@ -289,19 +289,19 @@ as well as extending core objects and objects from other plugins.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "what-plugins-do">
-        <sup>:ballot_box_with_check:&ensp;</sup>What <a href=#what-is-a-gradle-plugin">Plugins</a> do
+      <a class="anchor" id= "10-what-plugins-do">
+        <sup>:ballot_box_with_check:&ensp;</sup>What <a href=#09-what-is-a-gradle-plugin">Plugins</a> do
       </a>
     </h3>
   </summary>
   <blockquote>
 <span><!-- leave the next line blank -->
 
-Applying a [plugin](#what-is-a-gradle-plugin) to a [project](#what-is-a-gradle-project) allows the [plugin](#what-is-a-gradle-plugin) to extend the [project](#what-is-a-gradle-project)’s capabilities.
+Applying a [plugin](#09-what-is-a-gradle-plugin) to a [project](#06-what-is-a-gradle-project) allows the [plugin](#09-what-is-a-gradle-plugin) to extend the [project](#06-what-is-a-gradle-project)’s capabilities.
 <br/>
 It can do things such as
-* Extend the ***[Gradle](#what-is-gradle)*** model (e.g. add new *DSL* elements that can be configured)
-* Configure the [project](#what-is-a-gradle-project) according to conventions (e.g. add new tasks or configure defaults)
+* Extend the ***[Gradle](#01-what-is-gradle)*** model (e.g. add new *DSL* elements that can be configured)
+* Configure the [project](#06-what-is-a-gradle-project) according to conventions (e.g. add new tasks or configure defaults)
 * Apply specific configuration (e.g. enforce standards or add organizational repositories)
 </span>
     <br/>
@@ -313,35 +313,35 @@ It can do things such as
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "packaging-a-plugin">
+      <a class="anchor" id= "11-packaging-a-plugin">
         <sup>:ballot_box_with_check:&ensp;</sup>
-        Packaging a <a href="#what-is-a-gradle-plugin">Plugin</a>
+        Packaging a <a href="#09-what-is-a-gradle-plugin">Plugin</a>
       </a>
     </h3>
   </summary>
   <blockquote>
 <span><!-- leave the next line blank -->
 
-There are several places where you can put the source for the [plugin](#what-is-a-gradle-plugin):
+There are several places where you can put the source for the [plugin](#09-what-is-a-gradle-plugin):
 * ***Build Script*** `build.gradle`
 You can include the source for the plugin directly in the build script.  
-This has the benefit that the [plugin](#what-is-a-gradle-plugin) is automatically compiled and included  
+This has the benefit that the [plugin](#09-what-is-a-gradle-plugin) is automatically compiled and included  
 in the *classpath* of the build script without you having to do anything.<br/>  
-However, the [plugin](#what-is-a-gradle-plugin) is not visible outside the build script,  
+However, the [plugin](#09-what-is-a-gradle-plugin) is not visible outside the build script,  
 and cannot be reused outside the build script where it's defined.<br/>
 
 * ***Build Source*** `buildSrc` ***module**
-You can put the source for the [plugin](#what-is-a-gradle-plugin) in the `buildSrc/src/main/kotlin`.
+You can put the source for the [plugin](#09-what-is-a-gradle-plugin) in the `buildSrc/src/main/kotlin`.
 *Gradle* will take care of compiling, testing and making
-the [plugin](#what-is-a-gradle-plugin) available on the *classpath* of the build script.<br/>  
-The [plugin](#what-is-a-gradle-plugin) is visible to every build script used by the build.
+the [plugin](#09-what-is-a-gradle-plugin) available on the *classpath* of the build script.<br/>  
+The [plugin](#09-what-is-a-gradle-plugin) is visible to every build script used by the build.
 However, it is not visible outside the build,
 and cannot be reused outside the build it is defined in.<br/>
 * ***Standalone project***
-It is possible to create a separate project for your [plugin](#what-is-a-gradle-plugin).
+It is possible to create a separate project for your [plugin](#09-what-is-a-gradle-plugin).
 This project produces and publishes a `JAR`
 which then can be used in multiple builds and share with others.<br/>
-Generally, this `JAR` might include some [plugins](#what-is-a-gradle-plugin),
+Generally, this `JAR` might include some [plugins](#09-what-is-a-gradle-plugin),
 or bundle several related task classes into a single library.
 </span>
     <br/>
@@ -353,27 +353,27 @@ or bundle several related task classes into a single library.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "how-gradle-performes-plugin-build-logic">
+      <a class="anchor" id= "12-how-gradle-performes-plugin-build-logic">
       <sup>:ballot_box_with_check:&ensp;</sup>
-      How Gradle Performes <a href="#what-plugins-do">Plugin</a> Build Logic
+      How Gradle Performes <a href="#10-what-plugins-do">Plugin</a> Build Logic
       </a>
     </h3>
   </summary>
   <blockquote>
 <span><!-- leave the next line blank -->
 
-To use the build logic encapsulated in a [plugin](#what-is-a-gradle-plugin),  
-***[Gradle](#what-is-gradle)*** needs to perform two steps:
-1. ***resolve* the [plugin](#what-is-a-gradle-plugin)**  which involves
-   * finding its `jar` [plugin](#what-is-a-gradle-plugin) file
-   * adding the [plugin](#what-is-a-gradle-plugin) to the script *classpath*  
-Once a [plugin](#what-is-a-gradle-plugin) is resolved, its API can be used in a build script.
-     * ***Script [plugin](#what-is-a-gradle-plugin)*** is self-resolving from the specific file path or URL when it is applied.
-     * ***Core binary [plugin](#what-is-a-gradle-plugin)*** as part of the ***[Gradle](#what-is-gradle)*** distribution is resolved automatically.<br/>
-2. `apply` the [plugin](#what-is-a-gradle-plugin) to the Project
+To use the build logic encapsulated in a [plugin](#09-what-is-a-gradle-plugin),  
+***[Gradle](#01-what-is-gradle)*** needs to perform two steps:
+1. ***resolve* the [plugin](#09-what-is-a-gradle-plugin)**  which involves
+   * finding its `jar` [plugin](#09-what-is-a-gradle-plugin) file
+   * adding the [plugin](#09-what-is-a-gradle-plugin) to the script *classpath*  
+Once a [plugin](#09-what-is-a-gradle-plugin) is resolved, its API can be used in a build script.
+     * ***Script [plugin](#09-what-is-a-gradle-plugin)*** is self-resolving from the specific file path or URL when it is applied.
+     * ***Core binary [plugin](#09-what-is-a-gradle-plugin)*** as part of the ***[Gradle](#01-what-is-gradle)*** distribution is resolved automatically.<br/>
+2. `apply` the [plugin](#09-what-is-a-gradle-plugin) to the Project
 by `Plugin.apply(T)` method
-which actually means executing the [plugin](#what-is-a-gradle-plugin)
-<br/><br/>
+which actually means executing the [plugin](#09-what-is-a-gradle-plugin)
+</span>
   </blockquote>
 </details>
 
@@ -382,22 +382,22 @@ which actually means executing the [plugin](#what-is-a-gradle-plugin)
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "how-a-plugin-is-created">
+      <a class="anchor" id= "13-how-a-plugin-is-created">
          <sup>:ballot_box_with_check:&ensp;</sup>
-         How a <a href="#what-is-a-gradle-plugin">Plugin</a> is Created
+         How a <a href="#09-what-is-a-gradle-plugin">Plugin</a> is Created
       </a>
     </h3>
   </summary>
   <blockquote>
 <span><!-- leave the next line blank -->
 
-You need to write a class that implements the [plugin](#what-is-a-gradle-plugin) interface.  
-When the [plugin](#what-is-a-gradle-plugin) is applied to a project,  
-***[Gradle](#what-is-gradle)*** creates an instance of the [plugin](#what-is-a-gradle-plugin) class  
+You need to write a class that implements the [plugin](#09-what-is-a-gradle-plugin) interface.  
+When the [plugin](#09-what-is-a-gradle-plugin) is applied to a project,  
+***[Gradle](#01-what-is-gradle)*** creates an instance of the [plugin](#09-what-is-a-gradle-plugin) class  
 and calls the instance’s `Plugin.apply(T)` method.
 <br/>
 The project object is passed as a parameter,  
-which the [plugin](#what-is-a-gradle-plugin) can use to configure the project however it needs to.
+which the [plugin](#09-what-is-a-gradle-plugin) can use to configure the project however it needs to.
 </span>
 <br/><br/>
   </blockquote>
@@ -408,24 +408,24 @@ which the [plugin](#what-is-a-gradle-plugin) can use to configure the project ho
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "how-to-make-the-plugin-configurable">
-      <sup>:ballot_box_with_check:&ensp;</sup>How to Make the <a href="#what-is-a-gradle-plugin">Plugin</a> Configurable
+      <a class="anchor" id= "14-how-to-make-the-plugin-configurable">
+      <sup>:ballot_box_with_check:&ensp;</sup>How to Make the <a href="#09-what-is-a-gradle-plugin">Plugin</a> Configurable
       </a">
     </h3>
   </summary>
   <blockquote>
 <span><!-- leave the next line blank -->
 
-Most [plugins](#what-is-a-gradle-plugin) offer some configuration options for build scripts  
-as well as for other [plugins](#what-is-a-gradle-plugin). By modifying [plugin](#what-is-a-gradle-plugin) configuration  
-it is possible to customize how the [plugin](#what-is-a-gradle-plugin) works.
+Most [plugins](#09-what-is-a-gradle-plugin) offer some configuration options for build scripts  
+as well as for other [plugins](#09-what-is-a-gradle-plugin). By modifying [plugin](#09-what-is-a-gradle-plugin) configuration  
+it is possible to customize how the [plugin](#09-what-is-a-gradle-plugin) works.
 <br/>
-[Plugins](#what-is-a-gradle-plugin) do this using ***extension objects***.  
+[Plugins](#09-what-is-a-gradle-plugin) do this using ***extension objects***.  
 The Project has an associated `ExtensionContainer` object  
-that contains all the settings and properties for the [plugins](#what-is-a-gradle-plugin)  
+that contains all the settings and properties for the [plugins](#09-what-is-a-gradle-plugin)  
 that have been applied to the project.
 <br/>
-You can provide configuration for your [plugin](#what-is-a-gradle-plugin)  
+You can provide configuration for your [plugin](#09-what-is-a-gradle-plugin)  
 by adding an extension object to this container.
 </span>
 <br/><br/>
@@ -437,7 +437,7 @@ by adding an extension object to this container.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "usage-of-terms-module--project">
+      <a class="anchor" id= "15-usage-of-terms-module--project">
         <sup>:ballot_box_with_check:&ensp;</sup>
           Usage of Terms <b><i>module</i></b> & <b><i>project</i></b>
       </a>
@@ -447,7 +447,8 @@ by adding an extension object to this container.
 <span><!-- leave the next line blank -->
 
 Although Google Android documentation uses term ***project*** and its ***modules***,  
-***[Gradle](#what-is-gradle)*** documentation uses a term ***module***<sup>:blue_square:</sup> as ***project*** or ***subproject***.
+***[Gradle](#01-what-is-gradle)*** documentation uses a term ***module***<sup>:blue_square:</sup> as ***project*** or ***subproject***.
+</span>
 <br/><br/>
   </blockquote>
 </details>
@@ -457,7 +458,7 @@ Although Google Android documentation uses term ***project*** and its ***modules
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "the-gradle-settings-file">
+      <a class="anchor" id= "16-the-gradle-settings-file">
         <sup>:ballot_box_with_check:&ensp;</sup> The Gradle <i>Settings</i> File
       </a>
     </h3>
@@ -466,7 +467,7 @@ Although Google Android documentation uses term ***project*** and its ***modules
 <span><!-- leave the next line blank -->
 
 `settings.gradle` file, located in the root project directory,
-defines project-level repository settings and tells ***[Gradle](#what-is-gradle)***  
+defines project-level repository settings and tells ***[Gradle](#01-what-is-gradle)***  
 which modules it should include when building your app.<br/>
 It includes two ***repository*** blocks:
 </span>
@@ -478,15 +479,15 @@ It includes two ***repository*** blocks:
 <span><!-- leave the next line blank -->
 
 which configures the repositories
-used by ***[Gradle](#what-is-gradle)*** to search or download its [plugins](#what-is-a-gradle-plugin)  
+used by ***[Gradle](#01-what-is-gradle)*** to search or download its [plugins](#09-what-is-a-gradle-plugin)  
 and their transitive dependencies.<br/>
-***[Gradle](#what-is-gradle)*** pre-configures support for remote repositories in the block.  
+***[Gradle](#01-what-is-gradle)*** pre-configures support for remote repositories in the block.  
 You can also use local repositories or define your own remote ones.<br/>
 In android project repositories
  * `gradlePluginPortal()`,
  * `google()` (***Google's Maven***)
  * `mavenCentral()`
-are those where ***[Gradle](#what-is-gradle)*** should use to look for its dependencies.
+are those where ***[Gradle](#01-what-is-gradle)*** should use to look for its dependencies.
 </span>
       <br/><br/>
     </blockquote>
@@ -503,7 +504,7 @@ used by all modules in your project, such as libraries
 that you are using to create your application.
 <br/>
 However, you should configure module-specific dependencies  
-in each [module-level](#the-module-level-build-file) `build.gradle` file.
+in each [module-level](#18-the-module-level-build-file) `build.gradle` file.
 <br/>
 ***Android Studio*** for new projects includes
 * ***Google's Maven***
@@ -522,7 +523,7 @@ repositories by default, but it does not configure any dependencies.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "the-top-level-build-file">
+      <a class="anchor" id= "17-the-top-level-build-file">
         <sup>:ballot_box_with_check:&ensp;</sup>
         The Top-level <b><i>Build File</i></b>
       </a>
@@ -535,8 +536,8 @@ The [***top-level*** `build.gradle`](https://developer.android.com/studio/build#
 file, located in the root project directory,  
 defines dependencies that apply to all modules in the project.
 <br/>
-By default, the top-level build file uses the [`plugins{}`](#what-is-a-gradle-plugin) block  
-to define the *[Gradle](#what-is-gradle)* dependencies  
+By default, the top-level build file uses the [`plugins{}`](#09-what-is-a-gradle-plugin) block  
+to define the *[Gradle](#01-what-is-gradle)* dependencies  
 that are common to all sub-projects/modules in the project.
 
 <span>
@@ -549,7 +550,7 @@ that are common to all sub-projects/modules in the project.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "the-module-level-build-file">
+      <a class="anchor" id= "18-the-module-level-build-file">
         <sup>:ballot_box_with_check:&ensp;</sup>The Module-level <b><i>Build File</i></b>
       </a>
     </h3>
@@ -568,7 +569,7 @@ that are common to all sub-projects/modules in the project.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-build-sourcebuildsrc-module">
+      <a class="anchor" id= "19-what-is-build-sourcebuildsrc-module">
         <sup>:ballot_box_with_check:&ensp;</sup>What is <b><i>Build Source</i></b>
         <sup><code>buildSrc</code></sup> Module
       </a>
@@ -578,23 +579,23 @@ that are common to all sub-projects/modules in the project.
 <span><!-- leave the next line blank -->
 
 ***Build Source*** is a module at the project root directory,  
-which contains build logic. This allows us to use the [Kotlin DSL](#what-is-kotlin-dsl)  
+which contains build logic. This allows us to use the [Kotlin DSL](#04-what-is-kotlin-dsl)  
 to write custom build code with very little configuration  
 and share this logic across the whole project.<br/>
 
 The module directory `buildSrc` is treated as an included build.  
-Upon discovery of the directory, ***[Gradle](#what-is-gradle)*** automatically compiles and tests  
+Upon discovery of the directory, ***[Gradle](#01-what-is-gradle)*** automatically compiles and tests  
 the code and puts it in the ***classpath*** of the build script.<br/>
 
 There can be only one `buildSrc` directory for multi-project builds.  
-`buildSrc` should be preferred over script [plugins](#what-is-a-gradle-plugin)  
+`buildSrc` should be preferred over script [plugins](#09-what-is-a-gradle-plugin)  
 as it is easier to maintain, refactor, and test the code.<br/>
 
-The source directory for the [plugin](#what-is-a-gradle-plugin) should be in root  
+The source directory for the [plugin](#09-what-is-a-gradle-plugin) should be in root  
 `/buildSrc/src/main/kotlin` directory.  
-***[Gradle](#what-is-gradle)*** will take care of compiling and testing the plugin  
+***[Gradle](#01-what-is-gradle)*** will take care of compiling and testing the plugin  
 and making it available on the `classpath` of the build script.  
-The [plugin](#what-is-a-gradle-plugin) is visible to every build script used by the build.<br/>  
+The [plugin](#09-what-is-a-gradle-plugin) is visible to every build script used by the build.<br/>  
 However, it is not visible outside the build,  
 and it is not possible to reuse the plugin outside the build.
 <span>
@@ -607,7 +608,7 @@ and it is not possible to reuse the plugin outside the build.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-an-artifact-repository">
+      <a class="anchor" id= "20-what-is-an-artifact-repository">
         <sup>:ballot_box_with_check:&ensp;</sup>What is an Artifact Repository?
       </a>
     </h3>
@@ -630,7 +631,7 @@ Build artifacts are the files created by the build process, such as distribution
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-buildscript-block">
+      <a class="anchor" id= "21-what-is-buildscript-block">
         <sup>:ballot_box_with_check:&ensp;</sup>What is <code>buildscript{}</code> block
       </a>
     </h3>
@@ -639,13 +640,13 @@ Build artifacts are the files created by the build process, such as distribution
 <span><!-- leave the next line blank -->
 
 The `buildscript{}` block is where you configure  
-the repositories and dependencies for ***[Gradle](#what-is-gradle)*** itself.  
+the repositories and dependencies for ***[Gradle](#01-what-is-gradle)*** itself.  
 It means that you should not include dependencies for your modules here.
 <br/>
 For example, a block may include  
-the ***Android Gradle*** ***[Plugin](#what-is-a-gradle-plugin)*** (***AGP***) as a dependency,  
+the ***Android Gradle*** ***[Plugin](#09-what-is-a-gradle-plugin)*** (***AGP***) as a dependency,  
 because it provides the additional instructions  
-that ***[Gradle](#what-is-gradle)*** needs to build Android app modules.
+that ***[Gradle](#01-what-is-gradle)*** needs to build Android app modules.
 <br/>
 The `buildscript{}` block is for the `build.gradle` itself.  
 So, if buildscript itself needs something to run,  
@@ -660,7 +661,7 @@ use `classpath` configuration.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-repositories-block">
+      <a class="anchor" id= "22-what-is-repositories-block">
         <sup>:ballot_box_with_check:&ensp;</sup>What is <code>repositories{}</code> block
       </a>
     </h3>
@@ -676,7 +677,7 @@ or via an `allprojects` block in root `~/build.gardle` file,
 Repositories used by convention by every module  
 can be declared in the root `~/settings.gradle` file  
 in `dependencyResolutionManagement` block  
-which ***[Gradle](#what-is-gradle)*** uses to search or download the dependencies.
+which ***[Gradle](#01-what-is-gradle)*** uses to search or download the dependencies.
 </span>
     <br/><br/>
   </blockquote>
@@ -687,7 +688,7 @@ which ***[Gradle](#what-is-gradle)*** uses to search or download the dependencie
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "management-of-dependencies">
+      <a class="anchor" id= "23-management-of-dependencies">
         <sup>:ballot_box_with_check:&ensp;</sup>Management of <code>dependencies{}</code>
       </a>
     </h3>
@@ -728,7 +729,7 @@ which you want to download from the web.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "configurations-of-dependencies-classpath--implementation">
+      <a class="anchor" id= "24-configurations-of-dependencies-classpath--implementation">
         <sup>:ballot_box_with_check:&ensp;</sup>
           <span>
             Configurations of <code>dependencies{}</code>:
@@ -744,7 +745,7 @@ which you want to download from the web.
 A `Configuration` represents a group of artifacts and their dependencies.  
 <br/>
 When you’re building and running a *Java* project there are two *classpaths* involved:
-* ***Compile classpath*** – this is a list of dependencies that are required for the [***JDK***](#what-is-jdk) to be able to compile Java code into .class files
+* ***Compile classpath*** – this is a list of dependencies that are required for the [***JDK***](#03-what-is-jdk) to be able to compile Java code into .class files
 * ***Runtime classpath*** – this list of dependencies is required to actually run the compiled Java code
 <br/>
 
@@ -765,7 +766,7 @@ that we have three options to declare our dependencies:
 
 &emsp;If not, consider `compileOnly()` or `runtimeOnly()`.  
 <br/>
-The `classpath()` configuration is commonly seen in the [***Build Source***](#what-is-build-sourcebuildsrc-module) `buildSrc` module  
+The `classpath()` configuration is commonly seen in the [***Build Source***](#19-what-is-build-sourcebuildsrc-module) `buildSrc` module  
 where one needs to declare dependencies for the top-level `build.gradle` itself.  
 <br/>
 This configuration includes:
@@ -780,7 +781,7 @@ This configuration includes:
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-kotlin-bom-dependency">
+      <a class="anchor" id= "25-what-is-kotlin-bom-dependency">
         <sup>:ballot_box_with_check:&ensp;</sup>What is <code>kotlin-bom</code> "dependency"?
       </a>
     </h3>
@@ -818,7 +819,7 @@ and makes sure we don’t accidentally import different versions of components.
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-the-meaning-of-life">
+      <a class="anchor" id= "00-what-is-the-meaning-of-life">
         <sup>:ballot_box_with_check:&ensp;</sup>What is the meaning of <code>life</code>?
       </a>
     </h3>
@@ -849,11 +850,11 @@ That's [the meaning of life...](https://www.google.com/search?q=what+is+the+mean
 * use the same name `composite-build-demo` for application name and its location directory.
 * create package name `com.example.demo`.
 * *Version Control*: make *Initial Commit*: (*GitHub*: [`~/composite-build-demo`](https://github.com/PabloXyu/composite-build-demo)).
-* update `gradle.properties` to [multi-module](#the-module-level-build-file) project.
+* update `gradle.properties` to [multi-module](#18-the-module-level-build-file) project.
 * in `~/.gitignore` add lines `/.idea/name` & `/.idea/vcs.xml`, `/gradle`.
 * extend `settings.gradle`, `build.gradle`, `:app:build.gradle` files to [`*.kts`](https://docs.gradle.org/current/userguide/kotlin***dsl.html#sec:scripts).
 * with those *Gradle* files [migrate from *Groovy* to *Kotlin DSL*](https://developer.android.com/studio/build/migrate-to-kts).
-* in `settings.gradle`add ***Gradle [Plugin](#what-is-a-gradle-plugin) Portal*** repository.
+* in `settings.gradle`add ***Gradle [Plugin](#09-what-is-a-gradle-plugin) Portal*** repository.
 * in root `build.gradle` add snippet to enable *Kotlin Source Root* for each module.
 * in `app:build.gradle` update *JVM* & `compileOptions` to *Java* version *11*.
 * set *compileSdk* & *targetSdk* to level *31*.
@@ -1173,7 +1174,7 @@ Here is an implicit way how to achieve that:
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-the-meaning-of-life">
+      <a class="anchor" id= "00-what-is-the-meaning-of-life">
         <sup>:ballot_box_with_check:&ensp;</sup>What is the meaning of <code>life</code>?
       </a>
     </h3>
@@ -1199,7 +1200,7 @@ That's [the meaning of life...](https://www.google.com/search?q=what+is+the+mean
 <details >
   <summary>
     <h3>
-      <a class="anchor" id= "what-is-the-meaning-of-life">
+      <a class="anchor" id= "00-what-is-the-meaning-of-life">
         <sup>:ballot_box_with_check:&ensp;</sup>What is the meaning of <code>life</code>?
       </a>
     </h3>

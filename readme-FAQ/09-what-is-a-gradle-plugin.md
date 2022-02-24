@@ -1,4 +1,4 @@
-![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
+![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--1px blue line-->
 <!-- What is a Gradle Plugin? -->
 <h2><sup>:ballot_box_with_check:&ensp;</sup>
   What is a Gradle Plugin?
@@ -6,7 +6,7 @@
 <blockquote>
 <span><!-- leave the next line blank -->
 
-***[Gradle](what-is-gradle.md)*** at its core intentionally provides very little for real world automation.  
+***[Gradle](01-what-is-gradle.md)*** at its core intentionally provides very little for real world automation.  
 All of the useful features, like the ability to compile Java code, are added by plugins.  
 <br/>
 ***Plugins*** add

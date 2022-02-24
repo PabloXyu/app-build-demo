@@ -1,4 +1,4 @@
-![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
+![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--1px blue line-->
 <!-- What is the meaning of life? -->
 <h2><sup>:ballot_box_with_check:&ensp;</sup>
   What is the meaning of <code>life</code>?
@@ -7,7 +7,7 @@
 <span><!-- leave the next line blank -->
 
 That's [the meaning of life...](https://www.google.com/search?q=what+is+the+meaning+of+life%3F)  
-[link](what-is-the-meaning-of-life.md) to file in the same readme-FAQ directory
+[link](00-what-is-the-meaning-of-life.md) to file in the same readme-FAQ directory
 </span>
   <br/><br/>
 </blockquote>

@@ -1,4 +1,4 @@
-![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--3px blue line-->
+![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--1px blue line-->
 <!-- What is Kotlin DSL? -->
 <h2><sup>:ballot_box_with_check:&ensp;</sup>
   What is Kotlin DSL?
@@ -16,7 +16,7 @@ This means that even people
 who don’t understand the architecture behind the code  
 will be able to grasp the meaning of it.  
 <br/>
-***Kotlin DSL*** is used in [***Gradle***](what-is-gradle.md), alternatively to *Groovy*.  
+***Kotlin DSL*** is used in [***Gradle***](01-what-is-gradle.md), alternatively to *Groovy*.  
 Just like the *Groovy*-based equivalent,  ***Kotlin DSL*** is implemented on top of Gradle’s Java API.  
 Everything you can read in a Kotlin DSL script is Kotlin code compiled and executed by Gradle.  
 <br/>
