@@ -1,10 +1,10 @@
 <!-- "gradle-as" is a png picture of logos AS IDE, Android and Gradle together -->
-![gradle-as](https://user-images.githubusercontent.com/26512179/132996456-1d7dd5df-2604-4131-82c0-4af6629ba04b.png)
+![gradle-as](https://user-images.githubusercontent.com/26512179/167962538-6dea5252-89ea-483a-93f5-76e106b5d6f0.png)
 
 # Gradle<sup>:elephant:</sup> Composite Build Demo Application
 The purpose of the project is to extend my Android programming knowledge,  
-showing my coding skills for job interview,  
-and share my knowledge with other programmers  
+showing my coding skills for job interview, 
+and share my knowledge with other programmers
 for the benefit of this worldwide android-enthusiastic community.
 <br/>
 This is my first published repository.
