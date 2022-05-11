@@ -1,3 +1,5 @@
+<!-- todo: update new pic in AS repo-->
+
 <!-- "gradle-as" is a png picture of logos AS IDE, Android and Gradle together -->
 ![gradle-as](https://user-images.githubusercontent.com/26512179/167962538-6dea5252-89ea-483a-93f5-76e106b5d6f0.png)
 
