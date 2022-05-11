@@ -8,7 +8,7 @@ and share my knowledge with other programmers
 for the benefit of this worldwide android-enthusiastic community.
 <br/>
 This is my first published repository.
-
+<br/>
 This documentation includes also:
 * ***Markdown*** editor plugin installation
 * Useful Keyshorts & Mouse mappings
