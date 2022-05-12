@@ -29,7 +29,8 @@ This documentation includes also:
 This app code is written on [*Android Studio*](https://developer.android.com/studio#downloads) version
 [*Arctic Fox IDE (2020.3.1, Patch 4)*](https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.26/android-studio-2020.3.1.26-windows.exe).
 <!-- TOP OF FAQ chapters -->
-![](https://via.placeholder.com/1024x3.png/0078D7/0078D7/text=+)<!--3px blue line-->
+![](https://user-images.githubusercontent.com/26512179/167966331-047b1c98-9d98-48a6-aa42-c991709d0ae5.png)
+)<!--3px blue line-->
 <details open>
 <!-- fixme^: remove "open" option when ready. -->
   <summary>
@@ -169,7 +170,6 @@ to remove a lot of boilerplate code and hide the internal implementation from th
   </summary>
   <blockquote>
 <span><!-- leave the next line blank -->
-
  * Simplified plugins syntax
  * Default lazy task configuration
  * Compile time checks
@@ -179,7 +179,7 @@ to remove a lot of boilerplate code and hide the internal implementation from th
   </blockquote>
 </details>
 
-![](https://via.placeholder.com/1024x1.png/0078D7/0078D7/text=+)<!--blue line-->
+![](https://user-images.githubusercontent.com/26512179/167966331-047b1c98-9d98-48a6-aa42-c991709d0ae5.png)<!--blue line-->
 <!-- What is a Gradle Project? -->
 <details>
   <summary>
