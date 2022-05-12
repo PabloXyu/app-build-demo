@@ -29,8 +29,8 @@ This documentation includes also:
 This app code is written on [*Android Studio*](https://developer.android.com/studio#downloads) version
 [*Arctic Fox IDE (2020.3.1, Patch 4)*](https://redirector.gvt1.com/edgedl/android/studio/install/2020.3.1.26/android-studio-2020.3.1.26-windows.exe).
 <!-- TOP OF FAQ chapters -->
-![](https://user-images.githubusercontent.com/26512179/167966331-047b1c98-9d98-48a6-aa42-c991709d0ae5.png)
-)<!--3px blue line-->
+<!--3px blue line-->![](https://user-images.githubusercontent.com/26512179/167967890-79aa72fb-23d6-4657-8a9f-9acc81bd1ae5.png)
+
 <details open>
 <!-- fixme^: remove "open" option when ready. -->
   <summary>
